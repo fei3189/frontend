@@ -1,0 +1,686 @@
+192.168.56.212:50586 - - [01/Jun/2013 10:19:05] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50587 - - [01/Jun/2013 10:19:06] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51851 - - [01/Jun/2013 10:53:22] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51852 - - [01/Jun/2013 10:53:23] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51928 - - [01/Jun/2013 10:54:41] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51930 - - [01/Jun/2013 10:54:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 98, in GET
+    points = [None] * npoints
+TypeError: can't multiply sequence by non-int of type 'float'
+
+192.168.56.212:51929 - - [01/Jun/2013 10:54:46] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:52023 - - [01/Jun/2013 10:55:48] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:52022 - - [01/Jun/2013 10:55:53] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 100, in GET
+    k = math.floor((resultobj['trends']['time'] - minTime) / 86400000)
+TypeError: list indices must be integers, not str
+
+192.168.56.212:52024 - - [01/Jun/2013 10:55:55] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 101, in GET
+    points[k] = point['values']
+TypeError: list indices must be integers, not float
+
+192.168.56.212:52081 - - [01/Jun/2013 10:57:02] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:52082 - - [01/Jun/2013 10:57:03] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 105, in GET
+    if npoints[idx] is None:
+TypeError: 'int' object has no attribute '__getitem__'
+
+192.168.56.212:52118 - - [01/Jun/2013 10:59:11] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:52119 - - [01/Jun/2013 10:59:11] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:52138 - - [01/Jun/2013 10:59:52] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:52139 - - [01/Jun/2013 10:59:52] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:52146 - - [01/Jun/2013 11:00:07] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53483 - - [01/Jun/2013 11:38:53] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:53481 - - [01/Jun/2013 11:38:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 164, in GET
+    prob[key]['sum'] = sums[key][k]
+KeyError: u'count'
+
+192.168.56.212:53482 - - [01/Jun/2013 11:38:59] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 164, in GET
+    prob[key]['sum'] = sums[key][k]
+KeyError: u'count'
+
+192.168.56.212:53489 - - [01/Jun/2013 11:39:18] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 165, in GET
+    prob[key]['sum'] = sums[key][k]
+KeyError: u'count'
+
+192.168.56.212:53521 - - [01/Jun/2013 11:41:08] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 165, in GET
+    prob[key]['sum'] = sums[key][k]
+KeyError: u'count'
+
+192.168.56.212:53532 - - [01/Jun/2013 11:41:43] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 165, in GET
+    prob[key]['sum'] = sums[key][k]
+KeyError: u'count'
+
+192.168.56.212:53545 - - [01/Jun/2013 11:42:14] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 155, in GET
+    cdf1 = (1 + erf((v - avgs[idx]) / math.sqrt(2) / stdev[idx])) / 2
+NameError: global name 'erf' is not defined
+
+192.168.56.212:53813 - - [01/Jun/2013 11:53:45] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 155, in GET
+    cdf1 = (1 + math.erf((v - avgs[idx]) / math.sqrt(2) / stdev[idx])) / 2
+KeyError: 1
+
+192.168.56.212:53821 - - [01/Jun/2013 11:54:18] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:53840 - - [01/Jun/2013 11:54:54] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 157, in GET
+    p[idx] = 1 - math.abs(cdf1 - cdf2)
+AttributeError: 'module' object has no attribute 'abs'
+
+192.168.56.212:53882 - - [01/Jun/2013 11:57:46] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:53888 - - [01/Jun/2013 11:58:20] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53960 - - [01/Jun/2013 12:00:50] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54081 - - [01/Jun/2013 12:07:05] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54082 - - [01/Jun/2013 12:07:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54083 - - [01/Jun/2013 12:07:11] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54208 - - [01/Jun/2013 12:10:14] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54210 - - [01/Jun/2013 12:10:17] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54209 - - [01/Jun/2013 12:10:19] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54226 - - [01/Jun/2013 12:10:35] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54228 - - [01/Jun/2013 12:10:39] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54227 - - [01/Jun/2013 12:10:41] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54304 - - [01/Jun/2013 12:14:03] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54306 - - [01/Jun/2013 12:14:06] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54305 - - [01/Jun/2013 12:14:09] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54451 - - [01/Jun/2013 12:20:12] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54452 - - [01/Jun/2013 12:20:16] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54453 - - [01/Jun/2013 12:20:18] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54462 - - [01/Jun/2013 12:20:22] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54460 - - [01/Jun/2013 12:20:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54461 - - [01/Jun/2013 12:20:29] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54493 - - [01/Jun/2013 12:21:36] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54491 - - [01/Jun/2013 12:21:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54492 - - [01/Jun/2013 12:21:42] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54512 - - [01/Jun/2013 12:21:47] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54510 - - [01/Jun/2013 12:21:54] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54511 - - [01/Jun/2013 12:21:56] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54540 - - [01/Jun/2013 12:22:10] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54539 - - [01/Jun/2013 12:22:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54541 - - [01/Jun/2013 12:22:31] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54561 - - [01/Jun/2013 12:22:43] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54562 - - [01/Jun/2013 12:22:56] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54560 - - [01/Jun/2013 12:22:58] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55486 - - [01/Jun/2013 13:04:05] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55485 - - [01/Jun/2013 13:04:08] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55484 - - [01/Jun/2013 13:04:10] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55660 - - [01/Jun/2013 13:11:52] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55661 - - [01/Jun/2013 13:11:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55659 - - [01/Jun/2013 13:11:57] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55685 - - [01/Jun/2013 13:12:19] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55683 - - [01/Jun/2013 13:12:29] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55684 - - [01/Jun/2013 13:12:31] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55718 - - [01/Jun/2013 13:13:07] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55716 - - [01/Jun/2013 13:13:17] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55717 - - [01/Jun/2013 13:13:20] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55771 - - [01/Jun/2013 13:15:51] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55769 - - [01/Jun/2013 13:15:58] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55770 - - [01/Jun/2013 13:16:00] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55777 - - [01/Jun/2013 13:16:02] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55778 - - [01/Jun/2013 13:16:02] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55797 - - [01/Jun/2013 13:16:39] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55798 - - [01/Jun/2013 13:16:39] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55809 - - [01/Jun/2013 13:16:56] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55807 - - [01/Jun/2013 13:17:07] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55808 - - [01/Jun/2013 13:17:10] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55820 - - [01/Jun/2013 13:17:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55821 - - [01/Jun/2013 13:17:14] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55822 - - [01/Jun/2013 13:17:15] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 115, in GET
+    points[kdx] = {}
+UnboundLocalError: local variable 'kdx' referenced before assignment
+
+192.168.56.212:55833 - - [01/Jun/2013 13:17:28] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:55834 - - [01/Jun/2013 13:17:30] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 115, in GET
+    points[kdx] = {}
+UnboundLocalError: local variable 'kdx' referenced before assignment
+
+192.168.56.212:55843 - - [01/Jun/2013 13:17:47] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:55844 - - [01/Jun/2013 13:17:47] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 115, in GET
+    points[kdx] = {}
+UnboundLocalError: local variable 'kdx' referenced before assignment
+
+192.168.56.212:55855 - - [01/Jun/2013 13:17:58] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:55856 - - [01/Jun/2013 13:17:58] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 115, in GET
+    points[kdx] = {}
+UnboundLocalError: local variable 'kdx' referenced before assignment
+
+192.168.56.212:55866 - - [01/Jun/2013 13:18:12] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+Traceback (most recent call last):
+  File "/home/caq/api/web/application.py", line 239, in process
+    return self.handle()
+  File "/home/caq/api/web/application.py", line 230, in handle
+    return self._delegate(fn, self.fvars, args)
+  File "/home/caq/api/web/application.py", line 462, in _delegate
+    return handle_class(cls)
+  File "/home/caq/api/web/application.py", line 438, in handle_class
+    return tocall(*args)
+  File "/home/caq/api/api_trend.py", line 154, in GET
+    cdf1 = (1 + math.erf((v - avg[idx]) / math.sqrt(2) / stdev[idx])) / 2
+ZeroDivisionError: float division by zero
+
+192.168.56.212:55894 - - [01/Jun/2013 13:19:02] "HTTP/1.1 GET /brandinblog/api/1/trend" - 500 Internal Server Error
+192.168.56.212:56221 - - [01/Jun/2013 13:30:21] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56223 - - [01/Jun/2013 13:30:25] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56222 - - [01/Jun/2013 13:30:26] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56232 - - [01/Jun/2013 13:30:46] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56233 - - [01/Jun/2013 13:30:46] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56242 - - [01/Jun/2013 13:31:08] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56336 - - [01/Jun/2013 13:33:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56337 - - [01/Jun/2013 13:33:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:56335 - - [01/Jun/2013 13:33:23] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56371 - - [01/Jun/2013 13:34:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56372 - - [01/Jun/2013 13:34:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:56370 - - [01/Jun/2013 13:34:23] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56383 - - [01/Jun/2013 13:34:38] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56382 - - [01/Jun/2013 13:34:48] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56381 - - [01/Jun/2013 13:34:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:56390 - - [01/Jun/2013 13:35:03] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56388 - - [01/Jun/2013 13:35:12] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:56389 - - [01/Jun/2013 13:35:16] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56404 - - [01/Jun/2013 13:35:34] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56402 - - [01/Jun/2013 13:35:41] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:56403 - - [01/Jun/2013 13:35:43] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56412 - - [01/Jun/2013 13:35:51] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56413 - - [01/Jun/2013 13:35:51] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56418 - - [01/Jun/2013 13:36:07] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56419 - - [01/Jun/2013 13:36:07] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56429 - - [01/Jun/2013 13:36:25] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56427 - - [01/Jun/2013 13:36:38] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:56428 - - [01/Jun/2013 13:36:39] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56438 - - [01/Jun/2013 13:36:44] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56440 - - [01/Jun/2013 13:36:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:56439 - - [01/Jun/2013 13:36:45] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56447 - - [01/Jun/2013 13:36:52] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56446 - - [01/Jun/2013 13:36:52] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:56460 - - [01/Jun/2013 13:37:02] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:56461 - - [01/Jun/2013 13:37:03] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:48860 - - [01/Jun/2013 22:11:24] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:48858 - - [01/Jun/2013 22:11:27] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:48859 - - [01/Jun/2013 22:11:29] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50390 - - [01/Jun/2013 22:57:53] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50392 - - [01/Jun/2013 22:57:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50391 - - [01/Jun/2013 22:57:59] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:52355 - - [03/Jun/2013 10:44:02] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:52354 - - [03/Jun/2013 10:44:05] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:52353 - - [03/Jun/2013 10:44:07] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:52759 - - [03/Jun/2013 10:51:39] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:52758 - - [03/Jun/2013 10:51:39] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:52785 - - [03/Jun/2013 10:52:11] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:52784 - - [03/Jun/2013 10:52:11] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:52786 - - [03/Jun/2013 10:52:12] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:52875 - - [03/Jun/2013 10:53:46] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:52874 - - [03/Jun/2013 10:53:48] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:52876 - - [03/Jun/2013 10:53:50] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53096 - - [03/Jun/2013 10:59:26] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:53094 - - [03/Jun/2013 10:59:29] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:53095 - - [03/Jun/2013 10:59:31] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53165 - - [03/Jun/2013 11:00:46] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:53163 - - [03/Jun/2013 11:00:46] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:53164 - - [03/Jun/2013 11:00:47] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53178 - - [03/Jun/2013 11:01:02] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:53176 - - [03/Jun/2013 11:01:02] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:53177 - - [03/Jun/2013 11:01:03] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53185 - - [03/Jun/2013 11:01:10] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53186 - - [03/Jun/2013 11:01:11] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:53189 - - [03/Jun/2013 11:01:14] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:53188 - - [03/Jun/2013 11:01:15] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:53196 - - [03/Jun/2013 11:01:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:53197 - - [03/Jun/2013 11:01:18] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54210 - - [03/Jun/2013 11:21:21] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54208 - - [03/Jun/2013 11:21:25] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54209 - - [03/Jun/2013 11:21:26] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54356 - - [03/Jun/2013 11:24:25] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54355 - - [03/Jun/2013 11:24:27] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54357 - - [03/Jun/2013 11:24:29] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54487 - - [03/Jun/2013 11:27:45] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54486 - - [03/Jun/2013 11:27:48] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54485 - - [03/Jun/2013 11:27:50] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55028 - - [03/Jun/2013 11:39:50] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55026 - - [03/Jun/2013 11:39:53] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55027 - - [03/Jun/2013 11:39:55] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55548 - - [03/Jun/2013 11:53:14] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55546 - - [03/Jun/2013 11:53:19] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55547 - - [03/Jun/2013 11:53:21] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:55797 - - [03/Jun/2013 11:59:29] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:55795 - - [03/Jun/2013 11:59:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:55796 - - [03/Jun/2013 11:59:35] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:59604 - - [03/Jun/2013 13:36:31] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:59602 - - [03/Jun/2013 13:36:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:59603 - - [03/Jun/2013 13:36:41] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:60101 - - [03/Jun/2013 13:49:58] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60099 - - [03/Jun/2013 13:50:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60100 - - [03/Jun/2013 13:50:06] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:60119 - - [03/Jun/2013 13:50:17] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60118 - - [03/Jun/2013 13:50:20] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60120 - - [03/Jun/2013 13:50:20] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:60249 - - [03/Jun/2013 13:53:57] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60247 - - [03/Jun/2013 13:53:59] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60248 - - [03/Jun/2013 13:54:00] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:60257 - - [03/Jun/2013 13:54:07] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60255 - - [03/Jun/2013 13:54:19] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60256 - - [03/Jun/2013 13:54:20] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:60275 - - [03/Jun/2013 13:54:37] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60276 - - [03/Jun/2013 13:54:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60274 - - [03/Jun/2013 13:54:49] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:60665 - - [03/Jun/2013 14:06:30] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60667 - - [03/Jun/2013 14:06:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60666 - - [03/Jun/2013 14:06:40] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:32771 - - [03/Jun/2013 14:17:57] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:32774 - - [03/Jun/2013 14:17:58] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:32769 - - [03/Jun/2013 14:18:13] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:32772 - - [03/Jun/2013 14:18:19] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:32770 - - [03/Jun/2013 14:18:19] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:32773 - - [03/Jun/2013 14:18:20] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:32920 - - [03/Jun/2013 14:20:52] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:32918 - - [03/Jun/2013 14:21:02] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:32919 - - [03/Jun/2013 14:21:03] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:32950 - - [03/Jun/2013 14:21:34] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:32948 - - [03/Jun/2013 14:21:42] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:32949 - - [03/Jun/2013 14:21:45] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:33091 - - [03/Jun/2013 14:26:01] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:33089 - - [03/Jun/2013 14:26:05] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:33090 - - [03/Jun/2013 14:26:07] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:33386 - - [03/Jun/2013 14:36:28] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:33384 - - [03/Jun/2013 14:36:31] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:33385 - - [03/Jun/2013 14:36:33] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:34304 - - [03/Jun/2013 15:06:28] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:34305 - - [03/Jun/2013 15:06:33] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:35290 - - [03/Jun/2013 15:33:41] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:35288 - - [03/Jun/2013 15:33:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:35289 - - [03/Jun/2013 15:33:46] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:35336 - - [03/Jun/2013 15:34:40] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:35334 - - [03/Jun/2013 15:34:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:35335 - - [03/Jun/2013 15:34:46] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:36458 - - [03/Jun/2013 16:03:41] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:36459 - - [03/Jun/2013 16:03:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:36460 - - [03/Jun/2013 16:03:48] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:36493 - - [03/Jun/2013 16:04:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:36494 - - [03/Jun/2013 16:04:46] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:36984 - - [03/Jun/2013 16:17:59] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:36983 - - [03/Jun/2013 16:18:02] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:36985 - - [03/Jun/2013 16:18:04] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:37038 - - [03/Jun/2013 16:19:32] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:37036 - - [03/Jun/2013 16:19:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:37037 - - [03/Jun/2013 16:19:33] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:37056 - - [03/Jun/2013 16:20:09] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:37055 - - [03/Jun/2013 16:20:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:37054 - - [03/Jun/2013 16:20:15] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:37067 - - [03/Jun/2013 16:20:24] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:37066 - - [03/Jun/2013 16:20:28] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:37073 - - [03/Jun/2013 16:20:31] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:37065 - - [03/Jun/2013 16:20:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:37072 - - [03/Jun/2013 16:20:42] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:37071 - - [03/Jun/2013 16:20:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:38865 - - [03/Jun/2013 17:07:31] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:38863 - - [03/Jun/2013 17:07:34] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:38864 - - [03/Jun/2013 17:07:36] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39474 - - [03/Jun/2013 17:24:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39473 - - [03/Jun/2013 17:24:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39475 - - [03/Jun/2013 17:24:24] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39611 - - [03/Jun/2013 17:27:45] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39609 - - [03/Jun/2013 17:27:48] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39610 - - [03/Jun/2013 17:27:50] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39624 - - [03/Jun/2013 17:27:58] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39622 - - [03/Jun/2013 17:28:01] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39623 - - [03/Jun/2013 17:28:03] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39635 - - [03/Jun/2013 17:28:15] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39634 - - [03/Jun/2013 17:28:44] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39633 - - [03/Jun/2013 17:28:46] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39669 - - [03/Jun/2013 17:29:06] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39667 - - [03/Jun/2013 17:29:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39668 - - [03/Jun/2013 17:29:30] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39694 - - [03/Jun/2013 17:29:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39696 - - [03/Jun/2013 17:29:40] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39695 - - [03/Jun/2013 17:29:41] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39748 - - [03/Jun/2013 17:30:29] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39749 - - [03/Jun/2013 17:30:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39747 - - [03/Jun/2013 17:30:34] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39763 - - [03/Jun/2013 17:30:51] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39761 - - [03/Jun/2013 17:30:52] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39762 - - [03/Jun/2013 17:30:53] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39767 - - [03/Jun/2013 17:30:56] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39766 - - [03/Jun/2013 17:30:56] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39765 - - [03/Jun/2013 17:30:57] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39841 - - [03/Jun/2013 17:32:50] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39839 - - [03/Jun/2013 17:32:54] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39840 - - [03/Jun/2013 17:32:56] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39870 - - [03/Jun/2013 17:33:22] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39868 - - [03/Jun/2013 17:33:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39869 - - [03/Jun/2013 17:33:30] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39929 - - [03/Jun/2013 17:34:33] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39928 - - [03/Jun/2013 17:34:38] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39927 - - [03/Jun/2013 17:34:40] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40034 - - [03/Jun/2013 17:36:42] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40032 - - [03/Jun/2013 17:36:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40033 - - [03/Jun/2013 17:36:46] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40081 - - [03/Jun/2013 17:37:31] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40080 - - [03/Jun/2013 17:37:34] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40079 - - [03/Jun/2013 17:37:36] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40250 - - [03/Jun/2013 17:40:25] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40251 - - [03/Jun/2013 17:40:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40249 - - [03/Jun/2013 17:40:30] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40270 - - [03/Jun/2013 17:41:20] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40268 - - [03/Jun/2013 17:43:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40269 - - [03/Jun/2013 17:44:26] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40472 - - [03/Jun/2013 17:45:00] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40473 - - [03/Jun/2013 17:45:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40471 - - [03/Jun/2013 17:45:05] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40485 - - [03/Jun/2013 17:45:20] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40483 - - [03/Jun/2013 17:45:29] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40484 - - [03/Jun/2013 17:45:34] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40531 - - [03/Jun/2013 17:46:25] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40532 - - [03/Jun/2013 17:46:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40530 - - [03/Jun/2013 17:46:30] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40549 - - [03/Jun/2013 17:46:36] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40548 - - [03/Jun/2013 17:46:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40550 - - [03/Jun/2013 17:46:42] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40557 - - [03/Jun/2013 17:46:47] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40558 - - [03/Jun/2013 17:47:04] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40556 - - [03/Jun/2013 17:47:06] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:46349 - - [03/Jun/2013 21:16:04] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:46347 - - [03/Jun/2013 21:16:08] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:46348 - - [03/Jun/2013 21:16:10] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:49358 - - [03/Jun/2013 23:15:58] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:49356 - - [03/Jun/2013 23:16:01] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:49357 - - [03/Jun/2013 23:16:03] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:49366 - - [03/Jun/2013 23:16:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:49367 - - [03/Jun/2013 23:16:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:49365 - - [03/Jun/2013 23:16:27] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:49384 - - [03/Jun/2013 23:17:10] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:49382 - - [03/Jun/2013 23:17:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:49383 - - [03/Jun/2013 23:17:16] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51055 - - [04/Jun/2013 00:51:50] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51053 - - [04/Jun/2013 00:51:59] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51054 - - [04/Jun/2013 00:52:03] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51130 - - [04/Jun/2013 00:54:40] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51131 - - [04/Jun/2013 00:54:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51129 - - [04/Jun/2013 00:54:58] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51180 - - [04/Jun/2013 00:56:08] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51179 - - [04/Jun/2013 00:56:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51181 - - [04/Jun/2013 00:56:11] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51189 - - [04/Jun/2013 00:56:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51187 - - [04/Jun/2013 00:56:18] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51188 - - [04/Jun/2013 00:56:20] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51195 - - [04/Jun/2013 00:56:27] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51193 - - [04/Jun/2013 00:56:34] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51194 - - [04/Jun/2013 00:56:36] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51200 - - [04/Jun/2013 00:56:43] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51198 - - [04/Jun/2013 00:56:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51199 - - [04/Jun/2013 00:56:45] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51210 - - [04/Jun/2013 00:56:55] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51208 - - [04/Jun/2013 00:56:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51209 - - [04/Jun/2013 00:56:57] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51219 - - [04/Jun/2013 00:57:03] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51217 - - [04/Jun/2013 00:57:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51218 - - [04/Jun/2013 00:57:04] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40384 - - [04/Jun/2013 15:02:54] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40383 - - [04/Jun/2013 15:02:58] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40382 - - [04/Jun/2013 15:02:59] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40913 - - [04/Jun/2013 15:33:37] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40911 - - [04/Jun/2013 15:33:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40912 - - [04/Jun/2013 15:33:42] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50146 - - [05/Jun/2013 00:06:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50147 - - [05/Jun/2013 00:06:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50145 - - [05/Jun/2013 00:06:23] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:33253 - - [05/Jun/2013 09:02:15] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:33251 - - [05/Jun/2013 09:02:18] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:33252 - - [05/Jun/2013 09:02:20] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39285 - - [05/Jun/2013 13:06:36] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39283 - - [05/Jun/2013 13:06:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39284 - - [05/Jun/2013 13:06:42] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39609 - - [05/Jun/2013 13:15:08] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39607 - - [05/Jun/2013 13:15:11] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39608 - - [05/Jun/2013 13:15:14] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39671 - - [05/Jun/2013 13:17:12] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39672 - - [05/Jun/2013 13:17:17] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39720 - - [05/Jun/2013 13:18:27] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39719 - - [05/Jun/2013 13:18:31] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39721 - - [05/Jun/2013 13:18:33] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40028 - - [05/Jun/2013 13:31:09] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40026 - - [05/Jun/2013 13:31:12] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40027 - - [05/Jun/2013 13:31:15] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40943 - - [05/Jun/2013 14:11:37] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40944 - - [05/Jun/2013 14:11:39] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40942 - - [05/Jun/2013 14:11:41] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:41084 - - [05/Jun/2013 14:16:23] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:41082 - - [05/Jun/2013 14:16:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:41083 - - [05/Jun/2013 14:16:28] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:41245 - - [05/Jun/2013 14:21:52] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:41244 - - [05/Jun/2013 14:21:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:41246 - - [05/Jun/2013 14:21:58] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:41343 - - [05/Jun/2013 14:25:43] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:41341 - - [05/Jun/2013 14:25:46] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:41342 - - [05/Jun/2013 14:25:48] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:41358 - - [05/Jun/2013 14:26:11] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:41356 - - [05/Jun/2013 14:26:11] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:41357 - - [05/Jun/2013 14:26:11] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:41368 - - [05/Jun/2013 14:26:28] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:41370 - - [05/Jun/2013 14:26:31] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:41369 - - [05/Jun/2013 14:26:33] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:42205 - - [05/Jun/2013 15:03:58] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:42203 - - [05/Jun/2013 15:04:02] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:42204 - - [05/Jun/2013 15:04:04] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:35417 - - [06/Jun/2013 14:10:37] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:35419 - - [06/Jun/2013 14:10:37] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:35422 - - [06/Jun/2013 14:10:40] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:35415 - - [06/Jun/2013 14:10:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:35418 - - [06/Jun/2013 14:10:59] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:35441 - - [06/Jun/2013 14:10:59] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:35416 - - [06/Jun/2013 14:11:03] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:35421 - - [06/Jun/2013 14:11:07] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:35428 - - [06/Jun/2013 14:11:08] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:35420 - - [06/Jun/2013 14:11:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:35424 - - [06/Jun/2013 14:11:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:36882 - - [06/Jun/2013 14:40:39] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:36881 - - [06/Jun/2013 14:40:54] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:36885 - - [06/Jun/2013 14:40:59] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:36891 - - [06/Jun/2013 14:40:59] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:36884 - - [06/Jun/2013 14:41:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:36887 - - [06/Jun/2013 14:41:01] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39514 - - [06/Jun/2013 15:45:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39512 - - [06/Jun/2013 15:45:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39513 - - [06/Jun/2013 15:45:23] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:44634 - - [06/Jun/2013 17:23:10] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:44632 - - [06/Jun/2013 17:23:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:44633 - - [06/Jun/2013 17:23:15] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:45291 - - [06/Jun/2013 17:33:31] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:45289 - - [06/Jun/2013 17:33:34] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:45290 - - [06/Jun/2013 17:33:36] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:46638 - - [06/Jun/2013 18:03:31] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:46639 - - [06/Jun/2013 18:03:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:46649 - - [06/Jun/2013 18:03:38] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50263 - - [07/Jun/2013 23:31:55] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50262 - - [07/Jun/2013 23:31:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50264 - - [07/Jun/2013 23:32:00] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50821 - - [07/Jun/2013 23:44:12] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50819 - - [07/Jun/2013 23:44:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50820 - - [07/Jun/2013 23:44:16] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50877 - - [07/Jun/2013 23:45:18] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50875 - - [07/Jun/2013 23:45:22] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50876 - - [07/Jun/2013 23:45:24] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50898 - - [07/Jun/2013 23:46:15] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50896 - - [07/Jun/2013 23:46:22] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50897 - - [07/Jun/2013 23:46:23] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50897 - - [08/Jun/2013 15:15:27] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50895 - - [08/Jun/2013 15:15:33] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50896 - - [08/Jun/2013 15:15:33] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:50898 - - [08/Jun/2013 15:15:33] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50920 - - [08/Jun/2013 15:15:43] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:50918 - - [08/Jun/2013 15:15:48] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:50919 - - [08/Jun/2013 15:15:51] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51789 - - [08/Jun/2013 15:45:26] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51788 - - [08/Jun/2013 15:45:30] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:51790 - - [08/Jun/2013 15:45:42] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:51792 - - [08/Jun/2013 15:45:50] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:51791 - - [08/Jun/2013 15:45:51] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54954 - - [08/Jun/2013 19:18:35] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54957 - - [08/Jun/2013 19:18:38] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:54952 - - [08/Jun/2013 19:18:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:54953 - - [08/Jun/2013 19:18:51] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54956 - - [08/Jun/2013 19:18:54] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:54955 - - [08/Jun/2013 19:18:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60407 - - [09/Jun/2013 00:30:50] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60405 - - [09/Jun/2013 00:30:54] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60406 - - [09/Jun/2013 00:30:56] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:60753 - - [09/Jun/2013 01:00:49] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:60755 - - [09/Jun/2013 01:00:53] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:60754 - - [09/Jun/2013 01:00:55] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:45636 - - [09/Jun/2013 14:43:39] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:45635 - - [09/Jun/2013 14:43:43] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:45640 - - [09/Jun/2013 14:43:46] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:45634 - - [09/Jun/2013 14:43:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:45639 - - [09/Jun/2013 14:43:53] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:45638 - - [09/Jun/2013 14:43:54] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK

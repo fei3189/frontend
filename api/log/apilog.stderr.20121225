@@ -1,0 +1,239 @@
+Traceback (most recent call last):
+  File "main.py", line 3, in <module>
+    import web
+ImportError: No module named web
+Traceback (most recent call last):
+  File "main.py", line 3, in <module>
+    import web
+ImportError: No module named web
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    from api_count import *
+  File "/home/caq/weiboproduct/api/api_count.py", line 3, in <module>
+    import re, datetime, simplejson, time
+ImportError: No module named simplejson
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    from api_count import *
+  File "/home/caq/weiboproduct/api/api_count.py", line 4, in <module>
+    import mymongo, myutil
+  File "/home/caq/weiboproduct/api/mymongo.py", line 5, in <module>
+    import pymongo
+  File "/home/caq/weiboproduct/api/pymongo/__init__.py", line 61, in <module>
+    from pymongo.connection import Connection
+  File "/home/caq/weiboproduct/api/pymongo/connection.py", line 39, in <module>
+    from pymongo.mongo_client import MongoClient
+  File "/home/caq/weiboproduct/api/pymongo/mongo_client.py", line 44, in <module>
+    from bson.py3compat import b
+ImportError: No module named bson.py3compat
+137.132.82.129:43893 - - [25/Dec/2012 14:43:56] "HTTP/1.1 GET /" - 404 Not Found
+10.0.17.100:47640 - - [25/Dec/2012 15:10:44] "HTTP/1.1 GET /" - 404 Not Found
+10.0.17.100:47640 - - [25/Dec/2012 15:10:44] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+10.0.17.100:47640 - - [25/Dec/2012 15:10:44] "HTTP/1.1 GET /favicon.ico" - 404 Not Found
+10.0.17.100:55175 - - [25/Dec/2012 17:33:58] "HTTP/1.1 GET /" - 404 Not Found
+10.0.17.100:55850 - - [25/Dec/2012 17:45:07] "HTTP/1.1 GET /test/hello" - 200 OK
+10.0.17.100:55907 - - [25/Dec/2012 17:45:18] "HTTP/1.1 GET /test/hello" - 200 OK
+10.0.17.100:55916 - - [25/Dec/2012 17:45:23] "HTTP/1.1 GET /test/hello" - 200 OK
+10.0.17.100:56014 - - [25/Dec/2012 17:48:31] "HTTP/1.1 GET /" - 404 Not Found
+10.0.17.100:56016 - - [25/Dec/2012 17:48:52] "HTTP/1.1 GET /" - 404 Not Found
+10.0.17.100:56157 - - [25/Dec/2012 17:49:57] "HTTP/1.1 GET /" - 404 Not Found
+10.0.17.100:56163 - - [25/Dec/2012 17:50:18] "HTTP/1.1 GET /" - 404 Not Found
+10.0.17.100:56605 - - [25/Dec/2012 18:02:51] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:58923 - - [25/Dec/2012 18:10:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59151 - - [25/Dec/2012 18:13:35] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59206 - - [25/Dec/2012 18:15:08] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59218 - - [25/Dec/2012 18:15:47] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59254 - - [25/Dec/2012 18:19:02] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59255 - - [25/Dec/2012 18:19:05] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59267 - - [25/Dec/2012 18:20:41] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59321 - - [25/Dec/2012 18:25:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59327 - - [25/Dec/2012 18:25:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59338 - - [25/Dec/2012 18:25:15] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59354 - - [25/Dec/2012 18:32:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:59345 - - [25/Dec/2012 18:32:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:60545 - - [25/Dec/2012 19:48:19] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:60759 - - [25/Dec/2012 19:53:17] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:60750 - - [25/Dec/2012 19:53:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:60862 - - [25/Dec/2012 19:54:06] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:60933 - - [25/Dec/2012 19:56:48] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:60993 - - [25/Dec/2012 19:59:31] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:60997 - - [25/Dec/2012 20:00:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:32778 - - [25/Dec/2012 20:00:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35605 - - [25/Dec/2012 20:49:25] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35594 - - [25/Dec/2012 20:49:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35615 - - [25/Dec/2012 20:49:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35673 - - [25/Dec/2012 20:49:42] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36019 - - [25/Dec/2012 20:50:17] "HTTP/1.1 GET /brandinblog/api/1/" - 404 Not Found
+10.0.17.100:35882 - - [25/Dec/2012 20:50:23] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35945 - - [25/Dec/2012 20:51:10] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36022 - - [25/Dec/2012 20:52:10] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36019 - - [25/Dec/2012 20:52:17] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36262 - - [25/Dec/2012 20:56:18] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36497 - - [25/Dec/2012 21:01:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36501 - - [25/Dec/2012 21:02:04] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36632 - - [25/Dec/2012 21:02:56] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36795 - - [25/Dec/2012 21:04:18] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36813 - - [25/Dec/2012 21:05:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36843 - - [25/Dec/2012 21:08:11] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36993 - - [25/Dec/2012 21:12:24] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:37324 - - [25/Dec/2012 21:13:13] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:37332 - - [25/Dec/2012 21:14:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:37412 - - [25/Dec/2012 21:17:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:37701 - - [25/Dec/2012 21:20:36] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:37739 - - [25/Dec/2012 21:21:10] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:38779 - - [25/Dec/2012 21:41:24] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39171 - - [25/Dec/2012 21:49:01] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39592 - - [25/Dec/2012 21:59:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39602 - - [25/Dec/2012 21:59:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39613 - - [25/Dec/2012 21:59:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39684 - - [25/Dec/2012 22:00:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39738 - - [25/Dec/2012 22:02:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39828 - - [25/Dec/2012 22:02:54] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39841 - - [25/Dec/2012 22:04:42] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40007 - - [25/Dec/2012 22:06:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40055 - - [25/Dec/2012 22:07:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40250 - - [25/Dec/2012 22:13:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40295 - - [25/Dec/2012 22:15:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40347 - - [25/Dec/2012 22:27:47] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40367 - - [25/Dec/2012 22:29:19] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40361 - - [25/Dec/2012 22:29:29] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40360 - - [25/Dec/2012 22:30:16] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40371 - - [25/Dec/2012 22:30:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40363 - - [25/Dec/2012 22:30:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40413 - - [25/Dec/2012 22:30:38] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40403 - - [25/Dec/2012 22:31:10] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40404 - - [25/Dec/2012 22:31:23] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40412 - - [25/Dec/2012 22:31:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40704 - - [25/Dec/2012 22:37:25] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40695 - - [25/Dec/2012 22:37:35] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40845 - - [25/Dec/2012 22:37:47] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41129 - - [25/Dec/2012 22:38:02] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41067 - - [25/Dec/2012 22:38:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40853 - - [25/Dec/2012 22:38:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40425 - - [25/Dec/2012 22:38:29] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41127 - - [25/Dec/2012 22:39:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41149 - - [25/Dec/2012 22:39:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41151 - - [25/Dec/2012 22:41:05] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41507 - - [25/Dec/2012 22:43:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41624 - - [25/Dec/2012 22:45:30] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41621 - - [25/Dec/2012 22:45:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41511 - - [25/Dec/2012 22:45:56] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41517 - - [25/Dec/2012 22:45:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41513 - - [25/Dec/2012 22:46:12] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41509 - - [25/Dec/2012 22:47:12] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41628 - - [25/Dec/2012 22:48:16] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41630 - - [25/Dec/2012 22:48:48] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41632 - - [25/Dec/2012 22:49:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41642 - - [25/Dec/2012 22:52:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41643 - - [25/Dec/2012 22:53:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42017 - - [25/Dec/2012 22:53:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41645 - - [25/Dec/2012 22:54:04] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42009 - - [25/Dec/2012 22:54:13] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42018 - - [25/Dec/2012 22:54:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42337 - - [25/Dec/2012 22:54:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42108 - - [25/Dec/2012 22:54:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42334 - - [25/Dec/2012 22:54:54] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42348 - - [25/Dec/2012 22:54:56] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42349 - - [25/Dec/2012 22:55:15] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42351 - - [25/Dec/2012 22:55:20] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42652 - - [25/Dec/2012 22:58:17] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42650 - - [25/Dec/2012 22:58:19] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42654 - - [25/Dec/2012 22:58:20] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42754 - - [25/Dec/2012 23:03:50] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:42796 - - [25/Dec/2012 23:06:35] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:54802 - - [26/Dec/2012 16:00:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56579 - - [26/Dec/2012 16:20:12] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56577 - - [26/Dec/2012 16:20:12] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56316 - - [26/Dec/2012 16:20:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56609 - - [26/Dec/2012 16:20:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56622 - - [26/Dec/2012 16:20:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56719 - - [26/Dec/2012 16:21:52] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56760 - - [26/Dec/2012 16:22:18] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:56809 - - [26/Dec/2012 16:23:52] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57144 - - [26/Dec/2012 16:26:16] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57153 - - [26/Dec/2012 16:26:58] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57162 - - [26/Dec/2012 16:27:31] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57592 - - [26/Dec/2012 16:29:46] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57541 - - [26/Dec/2012 16:30:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57604 - - [26/Dec/2012 16:30:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57620 - - [26/Dec/2012 16:31:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57655 - - [26/Dec/2012 16:31:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57676 - - [26/Dec/2012 16:31:37] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57668 - - [26/Dec/2012 16:31:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:57692 - - [26/Dec/2012 16:31:52] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:58262 - - [26/Dec/2012 16:45:08] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:58273 - - [26/Dec/2012 16:45:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35331 - - [26/Dec/2012 17:11:44] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35353 - - [26/Dec/2012 17:11:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35578 - - [26/Dec/2012 17:11:51] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35365 - - [26/Dec/2012 17:11:52] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35587 - - [26/Dec/2012 17:12:47] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35673 - - [26/Dec/2012 17:13:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35646 - - [26/Dec/2012 17:13:53] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35666 - - [26/Dec/2012 17:14:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35752 - - [26/Dec/2012 17:14:24] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35734 - - [26/Dec/2012 17:14:41] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35795 - - [26/Dec/2012 17:19:27] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35764 - - [26/Dec/2012 17:20:38] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35786 - - [26/Dec/2012 17:21:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35807 - - [26/Dec/2012 17:21:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35817 - - [26/Dec/2012 17:21:52] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35888 - - [26/Dec/2012 17:22:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35775 - - [26/Dec/2012 17:22:23] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35961 - - [26/Dec/2012 17:22:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35829 - - [26/Dec/2012 17:23:13] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:35851 - - [26/Dec/2012 17:23:49] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36027 - - [26/Dec/2012 17:27:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36072 - - [26/Dec/2012 17:28:08] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36117 - - [26/Dec/2012 17:29:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36155 - - [26/Dec/2012 17:30:14] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36130 - - [26/Dec/2012 17:30:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36100 - - [26/Dec/2012 17:30:27] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36087 - - [26/Dec/2012 17:30:36] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36137 - - [26/Dec/2012 17:30:53] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36166 - - [26/Dec/2012 17:31:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36145 - - [26/Dec/2012 17:31:59] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36207 - - [26/Dec/2012 17:34:57] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36188 - - [26/Dec/2012 17:36:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36501 - - [26/Dec/2012 17:37:47] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36330 - - [26/Dec/2012 17:38:09] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36446 - - [26/Dec/2012 17:38:12] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36246 - - [26/Dec/2012 17:38:28] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36261 - - [26/Dec/2012 17:38:36] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36426 - - [26/Dec/2012 17:38:58] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36514 - - [26/Dec/2012 17:39:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36529 - - [26/Dec/2012 17:41:34] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36544 - - [26/Dec/2012 17:42:05] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36595 - - [26/Dec/2012 17:43:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36726 - - [26/Dec/2012 17:44:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36651 - - [26/Dec/2012 17:44:17] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36629 - - [26/Dec/2012 17:44:20] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36717 - - [26/Dec/2012 17:44:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36664 - - [26/Dec/2012 17:44:34] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:36797 - - [26/Dec/2012 17:44:35] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39337 - - [26/Dec/2012 18:32:51] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39350 - - [26/Dec/2012 18:35:16] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39366 - - [26/Dec/2012 18:35:21] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39381 - - [26/Dec/2012 18:36:56] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39414 - - [26/Dec/2012 18:36:56] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39400 - - [26/Dec/2012 18:38:03] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39472 - - [26/Dec/2012 18:39:26] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39488 - - [26/Dec/2012 18:39:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39740 - - [26/Dec/2012 18:42:24] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39783 - - [26/Dec/2012 18:42:30] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39791 - - [26/Dec/2012 18:42:55] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39824 - - [26/Dec/2012 18:43:32] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39848 - - [26/Dec/2012 18:43:48] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39775 - - [26/Dec/2012 18:44:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39856 - - [26/Dec/2012 18:45:04] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39833 - - [26/Dec/2012 18:45:20] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39866 - - [26/Dec/2012 18:46:43] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39987 - - [26/Dec/2012 18:47:23] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39973 - - [26/Dec/2012 18:47:34] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40014 - - [26/Dec/2012 18:47:39] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:40033 - - [26/Dec/2012 18:47:50] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:39998 - - [26/Dec/2012 18:47:52] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:41348 - - [26/Dec/2012 19:05:40] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:45927 - - [26/Dec/2012 19:29:47] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:47222 - - [26/Dec/2012 19:56:50] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+10.0.17.100:47314 - - [26/Dec/2012 19:58:05] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK

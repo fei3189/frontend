@@ -1,0 +1,276 @@
+http://192.168.56.212:8181/
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356628260000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists'api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356628260000', 'region': None, 'brand': None}>
+api_trend query: {: '$or'True: }[{}'keywords.sony', api_search query: {: {'{k'$eeywoxisrtdss."'\xe7\xb4\xa2\xe5\xb0\xbc"'': $or'{: : 'True$exists'}: [True{}'keywords.sony'}, }{, 'keywords.fujitsu'{: : {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"''$exists'{'$exists': True}: }{: '$exists': TrueTrue, {}'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"'}, : {{'keywords."'\xe7$exis\xb4t\xa2\xe5\xb0\xbcs"'': }}: , {{'$exists''keywords.fujitsu': True{: '$exists': TrueTrue}}}}, , {{'}'keywords.fujk}, {iety'wskeywords.nec': o{u''r: ds.$"exists'\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {{'$exists''$exists': : TrueTrue: True}}, }{}'keywords, .{"'}\xe6k\x97\xa5\xe6}\x9ce\xac\xe7\x94\xb5\xe6\xb0, y\x94w{"o'keywords."\xe5'r\xaf\x8c\xe5\xa3d\xab: s\xe9.nec'{: '$e{'$\x80e\x9a"': x{xiists''$exists': Truests'}: True}}, : {True'keywords."\xe6}\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"'}: , {{'$exists''keywords.nec': : True{}'$exists'}: , True{}'keywords.toshiba'}}, : , {{{'keywords.toshiba''keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': : {{''$$eexists'xists': '$True}}: exists': , True{}'keywords."\xe4}\xb8\x9c\xe8\x8a\x9d"': {True'$exists'}: }True, }{, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': }{]'$exists''keywords.toshiba': {'$exists': True: , True}}}}, 'post]Time': , {'postTime': '$lte'{: datetime.datetime(2012, 12, 28, 1, 11), '$gte': '$lte'datetime.datetime(2012, 11, 27, 8, 0): }datetime.datetime(2012, 12, 28, 1, 11), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+}
+{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 11), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_search count: 52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 326
+api_count generating response...
+api_search userdict count: 326 326
+api_search isolatedidset count: 301
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629441000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629441000', 'region': None, 'brand': None}>
+api_trend query:api_search query: {'$or':  'keywords.sony': {'$exists': True{[{'keywords.sony': {'$exists''$or'}: }, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {[{: 'keywords.sony''$exists': True}}, {'keywords.fujitsu': : {'$exists': TrueTrue}}}}, , {{'keywords."'\xe7\xb4\xa2\xe5k\xb0\xbc"'eywords.": \xe7{\xb4\xa2\xe5\xb0\xbc"''$exists': : {True}}, {'keywords.fujitsu': {'$exists''$exists'{'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5: \xa3\xabTrue\xe9\x80\x9a"'}: }{'$exists', : {True'keyw}ords.fujitsu'}: , {{'$exists''keywords.nec': : True{}'$exis}ts', : True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"'{': keywords."\xe5\xaf\x8cTrue\xe5}\xa3\xab\xe9\x80\x9a"'}: , {{'$exis'tkeywso'rds."\xe5\xaf\x8c\xe5\xa3: \xab\xe9\x80\x9a"'True: {'$exists'}: }True, }{}'keywords.nec', : : {{'$exists': True}}, {'keywords.toshiba''$exists'{'keywords.nec': {'$exists': True}}: , True{}'keywords."\xe6\x97\xa5\xe6}\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"', : {{'keywo'$exisrds."t\xe6\x97s\xa5'\xe6\x9c\xac\xe7\x94\xb5\xe6: \xb0\x94"'True: }{}'$exists', : {True'keywords.toshiba'}: }{, '$exists'{: 'keywords.toshiba'True: }{}'$exists', : True{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 30, 41), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+}: , {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d{"''keywords."\xe4: \xb8\x9c\xe8\x8a\x9d"'{: '$exists'{api_search count:'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 30, 41), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+: True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 30, 41), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 320
+api_count generating response...
+api_search userdict count: 320 320
+api_search isolatedidset count: 280
+api_count user_dataapi_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629515000', 'region': None, 'brand': None}>
+api_trend query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 31, 55), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+ <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629515000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 31, 55), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_count generating response...
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629726000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629726000', 'region': None, 'brand': None}>
+{api_search query:'keywords.nec':  {{api_trend query:'$exists' : {True'$or': [{'keywords.sony''$or}: '}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"'{: '$exists'{: '$exists'True: True: }}}}[, {{, 'keyword'skeyw."o\xe7r\xb4d\xa2s\xe5{'keywords\xb0\xbc"': ..{'$exists'sotny': {: oTrue}'}, {'k$exists': Trueeshiba'y}words.fujitsu': {'$exists': True: }}{, '$exists'{: 'keywords."True\xe7\xb4\xa2\xe5\xb0\xbc"'}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': : {{}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': '$exists''$exists': True}}, {: 'keywords.nec': True{}'$exists'}: , True{}'keywords.fujitsu'}: , {{'$exists''keywords."\xe6\x97: \xa5True\xe6\x9c\xac\xe7}\x94\xb5\xe6\xb0\x94"'}: {'$exists': True}}, , {{'keywords."\xe5\xaf'\x8c\xe5\xa3\xab\xe9k\x80eywor\x9ad"s'.: toshiba'{: '$exists'{: '$exists'True: }True}}, }{, 'keywords.nec'{: {'$exists': True}}]{, '$exists'': keywords."\xe4\xb8\x9c\xe8True\x8a\x9d"': }{'$exists'}: , True{}'keywords."\xe6}\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"']: , {'postTime''$exists''postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 35, 26), '$gte': datetime.datetime(2012, 11, 27, 8, 0): }True}}
+}: {'$lte': datetime.datetime(2012, 12, 28, 1, 35, 26), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_search count:, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 35, 26), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 306
+api_count generating response...
+api_search userdict count: 306 306
+api_search isolatedidset count: 286
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629772000', 'region': None, 'brand': None}>
+ api_trend user_data: api_count begin query: {'$or': [<Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629772000', 'region': None, 'brand': None}>
+{api_trend query:'keywords.sony'api_search query: {'$or': :  {{'$or': [{[{'keywords.sony': {'keywords.sony''': $$ex{'$exists': eixists'sts': TrueTrue}}}}, , {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': : True{'{$ex'keyi}s}w, {'keywotorsds."'\xe7: \xb4\xa2\xe5\xb0\xbc"True'r}ds."\xe7\xb4\xa2\xe5\xb0\xbc"': : {}{'$exist, s''$ex{ists''keywords.fujitsu': : True}{}'$exists', : {: 'keywords.fujitsu'True: }{True}}, {'keywords.fujitsu''$ex}ists': , True{}'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"'}: , {{'$exists''keywords."\xe5\xaf\x8c\xe5\xa3\xab: {: '$ex\xe9iTrue\x80\x9a"'sts': : {}True}, {'$exists': }True}}, }{, 'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': 'keywords.nec'{: '$exists'{: '$exists'True{: }True'}keywords.nec'}: }{, '$exists', : {'key{words."'keywords.nec': {'$exists'True: }True}, {}'keywords}, {."\xe6'\x97\xa5\xe6\x9ck\xaceywords."\xe6\xe7\x97\xa5\xe6\x9c\xac\xe6\x94\x97\xa5\xe6\x9c\xac\xe7\xe7\x94\xb5\xe6\xb0\x94\xb5\xe6\xb0\xb5\x94\x94\xe6""\xb0'\x94"': '{: '$exists': : True{}{}'$exists', : {True'keywords.toshiba'}: }{, '$exists'{: 'keywords.toshiba'True: '$exists'{: '$exists'True: True}}, {}'keywords."\xe4}\xb8}\x9c\xe8\x8a\x9d, }, {"''keywords.toshiba'{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': : {{'$exists''$exists': True}}: , {{'$ex': kTrueiestsy'w}: ords."True\xe4\xb8\x9c\xe8\x8a\x9d"': }{}'$exists'}]: , True'postTime'}: }]{, '$lte''postTime': : datetime.datetime(2012, 12, 28, 1, 36, 12), '$gte': datetime.datetime(2012, 11, 27, 8, 0){}'$lte'}]: 
+datetime.datetime(2012, 12, 28, 1, 36, 12), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_search count:, 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 36, 12), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 345
+api_count generating response...
+api_search userdict count: 345 345
+api_search isolatedidset count: 316
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629846000', 'region': None, 'brand': None}>
+api_count begin query: {api_search query: {''$$oor'r': : [{'keywords.sony': {'$exists': True}}, [{'keywords."{\xe7'\xb4\xa2\xe5\xb0\xbckey"words.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': '{'$exists': : True}}, {{'$exists''ke: yworTrueds.fujitsu'}: }{, '$exists'{: 'keywords.fujTrueitsu'}: }{, '$exists'{: 'keywords."\xe5True\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"'}: }{, '$exists'{: 'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629846000', 'region': None, 'brand': None}>
+api_trend query: {'$or': [{'$exists': TrueTrue'keywords.sony': {'$exists': True}}}}, }, {{'keywords.nec''keywords.nec': : {{'$exists''$exists': : TrueTrue}}}}, , {{'keywords."'\xe6k\x97\xa5\xe6\x9c\xace\xe7\x94\xb5\xe6\xb0\x94y"words."\xe6'\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': : {{'$exists''$exists': : TrueTrue}}}}, , {{'k'ekeywords.toshiba'ywords.toshiba': : {{''$exi$sexists'ts': : TrueTrue}}}}, , {{'keywords."\xe4\xb8'\x9c\xe8\x8a\x9d"'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': : {{'$exists''$exists': : TrueTrue}}}}]], , 'p'ostTime'postTime': : {{'$lte''$lte': : datetime.datetime(2012, 12, 28, 1, 37, 26), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}datetime.datetime(2012, 12, 28, 1, 37, 26), '$gte': }datetime.datetime(2012, 11, 27, 8, 0), }{}'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"'
+: {'$exists': True}}api_search count:
+}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 37, 26), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 332
+api_count generating response...
+api_search userdict count: 332 332
+api_search isolatedidset count: 322
+api_search query: {api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629880000', 'region': None, 'brand': None}>
+api_trend query:'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356629880000', 'region': None, 'brand': None}>True
+}api_count begin query: {'$or': [ {'$or': [{'keywords.sony': {'$exists': {}'keywords.so, ny'{: 'keywords.{fuj'i$exists'tsu': : True{}'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"'}: , {{'$exists''keywords.": \xe7True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, \xb4True\xa2\xe5\xb0\xbc"'{'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {: '$exists'{}'$exists'}: , True{}'ke}ywords.nec', : {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {{'$exists''$exists': : True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {True'$exists'}: }True, }{}'keywords.nec', : {{'keywords.toshiba''$exists': : {True'$exists'}: }True, }{}'keywords.", \xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6{\xb0\x94"''keywords."\xe4\xb8: \x9c{\xe8\x8a\x9d"''$exists': : {True'$exists'}: }True, }{}'keywords.toshi]ba', : 'postTime'{: '$exists'{: '$lte'True: }datetime.datetime(2012, 12, 28, 1, 38), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': : {'$existsTrue'}: }True, }
+api_search count:{'keywords.nec': {'$exists': True}}, {}'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94}\xb5\xe6\xb0\x94"': ]{, 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 38), '$gte': datetime.datetime(2012, 11, 27, 8, 0)'$exists': True}}, {'keywords.toshiba': {'$exists': True}}}}, 
+{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 38), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 322
+api_count generating response...
+api_search userdict count: 322 322
+api_search isolatedidset count: 302
+api_count user_data <Storage {'region': None, 'begin': u'1353945600000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0)}}
+api_trend user_data: <Storage {'region': None, 'begin': u'1353945600000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0)}}
+api_count generating response...
+api_count user_data <Storage {'region': None, 'begin': u'1353945600000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0)}}
+api_trend user_data: <Storage {'region': None, 'begin': u'1353945600000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0)}}
+api_count generating response...
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356630022000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 40, 22), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356630022000', 'region': None, 'brand': None}>
+api_trend query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': api_search query:{'$exists': True}}, { 'keywords.nec': {{'$'$or'exists': True}: }, [{'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7{\x94\xb5\xe6\xb0\x94"''keywords.sony': {'$exists': True: }{'$exists': True}}}, , {'{keywords.toshiba': {'keywords.'$exists': True}"}, {'keywords."\xe4\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {\xb8'\x9c\xe8keyword\x8as\x9d"': ."\xe5{\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': '$exis{'t$sexists'': : True}}, {'keywords.necTrue'}}], 'postTime': {: '$lte': datetime.datetime(2012, 12, 28, 1, 40, 22), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+{'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 40, 22), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_search count: 52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 326
+api_count generating response...
+api_search userdict count: 326 326
+api_search isolatedidset count: 301
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356630111000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 41, 51), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_search query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 41, 51), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_search count: api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356630111000', 'region': None, 'brand': None}>
+api_trend query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 41, 51), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 322
+api_count generating response...
+api_search userdict count: 322 322
+api_search isolatedidset count: 302
+api_count user_data <Storage {'region': None, 'begin': u'1353945600000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{api_trend user_data: <Storage {'region': None, 'begin': u'1353945600000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: api_search query:{'keywords.toshiba': {'$exists': True'$or' {'$or': [{'keywords.toshiba': : {'$exists': True}}[}{}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"''keywords.to: shiba'{: , {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists'{'$exists': True}}, '$exists': : TrueTrue}}}}, , {{'keywords.fujitsu': {'$exists': True'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"'{'keywords.fujitsu': {'$exists': True: }{'}$exists'}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': : {True'$exists': True}}, {}'keywords.sony'}: , {{'$exists''keywords.fujitsu': : True{}'$exists'}, : True}}, {{'keywords."\xe5\xaf'\x8c\xe5\xa3\xabkeywo\xe9r\x80\x9a"'ds."\xe5\xaf: \x8c\xe5\xa3\xab\xe9{\x80\x9a"''$exists': : {True'$exists'}: }True, }{}'keywords.sony': {'$exists': True, }{}'keywords.sony', : {{'keywords."\xe7\xb4'\xa2$\xe5\xb0\xbc"'exists': : {True'$exists'}: }True, }{}'keywords."\xe7, \xb4{\xa2\xe5\xb0\xbc'k"ey'words: .nec'{: '$exists'{: '$exists': True}}, {'keywordTrues."}\xe6\x97\xa5\xe6\x9c\xac\xe7\x94}\xb5\xe6\xb0\x94"', : {{'keywords.nec''$exists': : {True'$exists'}: }True]}, }'postTime', : {{'keywords."\xe6'\x97\xa5\xe6\x9c\xac$\xe7\x94\xb5\xe6\xb0lte'\x94"': : datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0){}'$exists'}: 
+Trueapi_search count:}}], 'postTime': }, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {{'$l'te': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': $exists': Truedatetime.datetime(2012, 11, 27, 0, 0)}}}}
+, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0)}}
+53091
+api_search distinct count: 29643
+api_search random sampled 500 id
+api_search fans id count: 325
+api_count generating response...
+api_search userdict count: 325 325
+api_search isolatedidset count: 308
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356630949000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 1, 55, 49), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+api_trend user_data: <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356630949000', 'region': None, 'brand': None}>
+api_trend query: {'$or': [{'keywords.sony'api_search query: {'$or': : {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"'[{'keywords.sony': {: '$exists'{'$exists': True}}, : {'keywords.fujitsuTrue'}}: , {'$ex{'keywords."ists'\xe7\xb4\xa2\xe5\xb0\xbc"': : True{'$exists': True}}, {'keywords.fujitsu': {'}$exists'}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': : {'$exists'True: }True}}, }{, {'keywo'rds."k\xe5\xaf\x8ce\xe5\xa3\xab\xe9\x80y\x9a"': {wor'd$se.nexistsc'': : {'$exists': True}}, {'keywords."\xe6True\x97\xa5\xe6\x9c\xac\xe7\x94}\xb5\xe6\xb0\x94"': {}'$exists': True}}, , {'keywords.toshiba': {'$exists': {True'keywords.nec': {'$exists': True}}, }}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}{'$exists': True}}]}, , {'keywords.toshiba': {'$exists': True}'}, {p'keywords."\xe4o\xb8s\x9c\xe8\x8a\x9d"'tTime: {'$exists': 'True}}], 'postTime': : {'$lte'{: '$lte'datetime.datetime(2012, 12, 28, 1, 55, 49), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}: }datetime.datetime(2012, 12, 28, 1, 55, 49), '$gte': datetime.datetime(2012, 11, 27, 8, 0)}}
+
+api_search count: 52346
+api_search distinct count: 29577
+api_search random sampled 500 id
+api_search fans id count: 303
+api_count generating response...
+api_search userdict count: 303 303
+api_search isolatedidset count: 267
+api_trend user_data: <Storage {'begin': u'1353945600000', 'score': u'0', 'end': u'1356710399999', 'region': u'11', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba'api_search query::  {{'$or': [{'keywords.toshiba''$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': : {'$exists': True}}{, '$exist{s'': True}key}, {words.'"k\xe4e\xb8y\x9c\xe8\x8a\x9d"wor'ds.fuj: it{'$existss'u': : {'$exists': True}}, {'keywords."\xe5True\xaf\x8c\xe5\xa3\xab}\xe9\x80\x9a"': {'$exis}t, {'kse'ywor: dTrues.fu}jitsu': {'$exists'}: True, }{'keywords.sony': }{', $ex{i'keywords."\xe5s\xaf\x8c\xe5\xa3\xabts'\xe9\x80\x9a"': : {'$exists': True}}, True}{'keywords.sony'}: {'$exists': True}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': }datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0)}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists', 'region': <_sre.SRE_Pattern object at 0x20593c0>}: 
+True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 27, 0, 0)}, 'region': <_sre.SRE_Pattern object at 0x20593c0>}
+api_search count: 1044
+api_search distinct count: 806
+api_search random sampled 500 id
+api_search fans id count: 324
+api_search userdict count: 324 324
+api_search isolatedidset count: 229
+api_count user_data <Storage {'begin': u'1353974400000', 'score': u'0', 'end': u'1356631045000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {http://192.168.56.212:8181/
+api_count user_data <Storage {'begin': u'1354060800000', 'score': u'0', 'end': u'1356665046000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony'api_search query: : {'$or'{: [{'keywords.sony': {'$exists': True'$exists'}}, {'keywords.": True}\xe7\xb4\xa2\xe5\xb0\xbc"'}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {: 'keywords.fujitsu'{: '$exists'{: '$exists'True: }True}}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': , api_trend user_data:True}}{, 'key{words.fujitsu': '{'$exists'keywords.nec': : {True}}'$exists': True}}, , {{ 'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"'<Storage {'begin': u'1354060800000', 'score': u'0', 'end': u'1356665046000', 'region': None, 'brand': None}>'keywords."\xe6\x97\xa5\xe6: \x9c{'$exists': True}\xac}, \xe7{\x94\xb5\xe6\xb0\x94"'
+'keywords.nec': {'$exists': True}}, {: 'keywords.t{o'$exists': shTruei}}ba', : {'$exists': True}}, {{'keywords."\xe6\x97\xa5\xe6\x9c'\xac\xe7\x94\xb5\xe6\xb0k\x94"': eywords."\xe4{\xb8\x9c\xe8\x8a\x9d"''$exis: ts'{'$exists': True}}], 'pos: tTrue}Time'}: {'$lte': datetime.datetime(2012, 12, 28, 11, 24, 6), '$gte': datetime.datetime(2012, 11, 28, 8, 0)}}
+api_search count:, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 11, 24, 6), '$gte': datetime.datetime(2012, 11, 28, 8, 0)}}
+api_trend query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 11, 24, 6), '$gte': datetime.datetime(2012, 11, 28, 8, 0)}}
+50773
+api_search distinct count: 29790
+api_search random sampled 500 id
+api_search fans id count: 337
+api_count generating response...
+api_trend user_data: <Storage {'region': None, 'begin': u'1354032000000', 'score': u'1', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 28, 0, 0)}}
+api_search query: {'$or': [{'keywords.toshiba': {'$exists': True}}api_count user_data <Storage {'region': None, 'begin': u'1354032000000', 'score': u'1', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"''keywo: rds.toshiba'{: {'$exists': True'$exists'}}, {: 'keywords."\xe4True\xb8\x9c\xe8\x8a\x9d"': {}'$}e, {x'iksts': True}eywor}ds.fuj, {'keiywords.fujitsu': {t'$exists': True}su'}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': : {{'$exists': True}}, '$exists'{'keywords.sony': {'$exists': True}}, : {'kTruee}}y, {'kewords.y"\xe7\xb4\xa2w\xe5\xb0\xbc"': o{'$exists': rTrueds."}\xe5\xaf}\x8c\xe5\xa3\xab\xe9\x80\x9a, "'{'keywords.nec': {'$exists': : True{}}, {'keywords."\xe6'\x97\xa5\xe6\x9c\xac$\xe7\x94\xb5\xe6\xb0e\x94"': x{i'$exists': Truests'}}], 'postTime': : {'$lte'True: datetime.datetime(2012, 12, 28, 23, 59, 59), '$g}te'}: datetime.datetime(2012, 11, 28, 0, 0)}}, 
+{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 28, 0, 0)}}
+api_search count: 51700
+api_count generating response...
+api_search distinct count: 29876
+api_search random sampled 500 id
+api_search fans id count: 331
+api_search userdict count: 337 337
+api_search isolatedidset count: 306
+api_count user_data <Storage {'region': None, 'begin': u'1346428800000', 'score': u'1', 'end': u'1349107199999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {'$exists': Trueapi_trend user_data: <Storage {'region': None, 'begin': u'1346428800000', 'score': u'1', 'end': u'1349107199999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{}'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}}, , {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 10, 1, 23, 59, 59), '$gte': datetime.datetime(2012, 9, 1, 0, 0)}}
+'keywords.sony': {'$exists': api_search query: {'$or'True: }[}{'keywords.toshiba': , {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"'{: {'$exists': True}}, {'$exists'': keywords."\xe4\xb8\x9c\xe8\x8a\x9d"'True}}: {'$exists': True}, {'keywords.nec': }{'$exists', : {True'keywords.fujitsu'}: }, {'keywords."\xe6\x97\xa5\xe6{\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"''$exists': True}}: , {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}{, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"''$exists': : {'$exists': True}}], 'postTiTruem}e': {'$lte': datetime.datetime(2012, 10, 1, 23, 59, 59), '$gte': datetime.datetime(2012, 9, 1, 0, 0)}}}
+api_search count:], 'postTime': {'$lte': datetime.datetime(2012, 10, 1, 23, 59, 59), '$gte': datetime.datetime(2012, 9, 1, 0, 0)}}
+66038
+api_search userdict count: 331 331
+api_search isolatedidset count: 322
+api_search distinct count: 54196
+api_search random sampled 500 id
+api_search fans id count: 336
+api_count generating response...
+api_search userdict count: 336 336
+api_search isolatedidset count: 322
+api_count user_data <Storage {'region': None, 'begin': u'1343750400000', 'score': u'1', 'end': u'1346428799999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists'api_search query::  {'$or': True[{'keywords.toshiba': {}'$exists'}, {'keywords.sony': {'$exists': True: }}, {'keywords."\xe7True\xb4\xa2\xe5\xb0\xbc}"}, '{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {: '$exists': True}}, {'$exists': True}}, {'keywords.nec': {'keywords.fujitsu': {'$exists': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6True\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {}'$exists': True}}}], , 'postTime': {'$lte': datetime.datetime(2012, 8, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 8, 1, 0, 0)}{'k}eywords."\xe5\xaf\x8c\xe5\xa3
+\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 8, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 8, 1, 0, 0)}}
+api_search count: api_trend user_data: <Storage {'region': None, 'begin': u'1343750400000', 'score': u'1', 'end': u'1346428799999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 8, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 8, 1, 0, 0)}}
+api_count generating response...
+52863
+api_search distinct count: 41620
+api_search random sampled 500 id
+api_search fans id count: 330
+api_count user_data <Storage {'region': None, 'begin': u'1341072000000', 'score': u'1', 'end': u'1343750399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 7, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 7, 1, 0, 0)}}
+api_search query: {'$or': [{'keywords.toshiba': {api_trend user_data: <Storage {'region': None, 'begin': u'1341072000000', 'score': u'1', 'end': u'1343750399999', 'brand': u'toshiba fujitsu sony nec'}>'$exists': True}}, 
+{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {api_trend query: {'$or': [{'keywords.toshiba''$exists': : {True'$exists': }True}}, }{, 'keywords.fujitsu': {'$exists': True}{}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"''keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}: }{'$exists': True}}, {, 'keywords.sony': {'$exists': True}}{, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': '$exists'{'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': : {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 7, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 7, 1, 0, 0)}}
+api_search count:True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 7, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 7, 1, 0, 0)}}
+47569
+api_count generating response...
+api_search distinct count: 36709
+api_search userdict count: 330 330
+api_search isolatedidset count: 304
+api_search random sampled 500 id
+api_search fans id count: 326
+api_count user_data <Storage {'region': None, 'begin': u'1335801600000', 'score': u'1', 'end': u'1356969599999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba'api_trend user_data: <Storage {'region': None, 'begin': u'1335801600000', 'score': u'1', 'end': u'1356969599999', 'brand': u'toshiba fujitsu sony nec'}>: 
+api_trend query:{ '$exists': {'$or'True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': [{'keywords.toshiba': {'$exists': True: }{'$exists'}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d: "'api_search query::  {True}}{'$or': [{'keywords.toshiba': {'$exists''$exists', : True}: {True'keywords.fujitsu'}: {'$exists', {'keywords.fujitsu'}: }: , {True'keywords."}\xe4\xb8\x9c\xe8\x8a\x9d"'}: {, '$exists'{: 'keywords."\xe5True\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {{'$exists''$exists': : TrueTrue}}}}}, {'keywords.sony': {'$exists': True}}}, , {{'keywords.fujits'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': u'{: , '$exists': True}}, {{'keywords.nec': {'$exists''keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': True}}, {: 'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"'{: '$exists'{: {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': True{}'$exists'}'$exists': True}}], 'postTime', {: 'keywords.sony': : {{'$lte': datetime.datetime(2012, 12, 31, 23, 59, 59), '$gte''$exists': TrueTrue}}}, : {datetime.datetime(2012, 5, 1, 0, 0)}}
+'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"'}, {'keywords.sony': {'$exists': : True{'$exists': True}}, {'keywords.nec': {'$exists'}: }True}}, {, 'keywords."{\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"''keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}: , {'$exists'{: 'keywords.nec'True: }{}'$exists']: , True'postTime'}: }{, '$lte'{: 'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"'datetime.datetime(2012, 12, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 5, 1, 0, 0)}: }{
+'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 5, 1, 0, 0)}}
+api_search count: 383968
+api_search userdict count: 326 326
+api_search isolatedidset count: 304
+api_search distinct count: 229642
+api_search random sampled 500 id
+api_search fans id count: 321
+api_count generating response...
+api_search userdict count: 321 321
+api_search isolatedidset count: 310
+api_count user_data <Storage {'region': None, 'begin': u'1354291200000', 'score': u'1', 'end': u'1356969599999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {api_trend user_data: <Storage {'region': None, 'begin': u'1354291200000', 'score': u'1', 'end': u'1356969599999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': ['$exists'{'keywords.toshiba': {'$exists': : True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exiTrues}ts'}: , {Trueapi_search query:}}, 'k eywords."\xe4{\xb8\x9c\xe8\x8a\x9d"': '$or'{: '$exists'[: {True{'keywor'ds.toshiba'keywords."\xe5}\xaf\x8c: \xe5\xa3}{\xab\xe9\x80\x9a"', ': ${{exists''$exists''ke: ywTrueords.fujitsu'}: }{, '$exists'{: 'keywords.sonyTrue': : {}True}'$exists', : {True'keywords."\xe5}\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': }{, '$exists'{: }'kTrueeywords."}\xe7\xb4\xa2\xe5\xb0\xbc"'}}, : , {'keywords.sony': {'$exists'{{'keywords."'$exists'\xe4: : \xb8\x9c\xe8\x8a\x9d"': {True'$exists'}: }True, }{True'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"'}: , {{'$exists'}'keywords.fujitsu': }{, '$exists'{: 'keywords.nec': : {TrueTrue}}'$exists', }: }True, }{}'keywords."\xe5\xaf, \x8c\xe5\xa3\xab\xe9\x80\x9a"'{'keywords.nec': {'$exists'{: : {True'$exists'}: 'keywTrueords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': }{, '$exi{}sts'}'keywords."\xe6: \x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"', : {{'$exis'kTrue}ts'eywords.so: Trueny': {'}}}]$exists']: , True'postTime'}: }{, 'postTime': {'$lte', : {datetime.datetime(2012, 12, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 1, 0, 0)'key}words."\xe7\xb4\xa2\xe5\xb0\xbc"': '$lte'{}: 
+datetime.datetime(2012, 12, 31, 23, 59, 59)'$exists', : True}}, {'keywords.nec': {'$exists': True}}', $gte'{'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {: '$exists'datetime.datetime(2012, 12, 1, 0, 0)}}
+: True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 1, 0, 0)}}
+api_search count: 46447
+api_search distinct count: 29337
+api_search random sampled 500 id
+api_search fans id count: 345
+api_count generating response...
+api_search userdict count: 345 345
+api_search isolatedidset count: 320
+api_trend user_data: <Storage {'begin': u'1354291200000', 'score': u'1', 'end': u'1356969599999', 'region': u'11', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba': api_search query:{'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"' : {'$exists': True}}, {'$or': [{'keywords.toshiba': {{'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': '$exists': True}}, {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3True\xab\xe9\x80\x9a"': {}'$exists'}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': : True}}True]}, 'post}Time': {'$lte': , datetime.datetime(2012, 12, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 1, 0, 0)}, {'region': <_sre.SRE_Pattern object at 0x1a99458>}
+'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 31, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 1, 0, 0)}, 'region': <_sre.SRE_Pattern object at 0x1a99458>}
+api_search count: 884
+api_search distinct count: 696
+api_search random sampled 500 id
+api_search fans id count: 320
+api_search userdict count: 320 320
+api_search isolatedidset count: 234
+api_count user_data <Storage {'region': None, 'begin': u'1355846400000', 'score': u'1', 'end': u'1355932799999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"'api_search query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 19, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 19, 0, 0)}}
+api_search count: api_trend user_data: <Storage {'region': None, 'begin': u'1355846400000', 'score': u'1', 'end': u'1355932799999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.tos: hiba'{'$exists': True}}, {'keywords.fujitsu': {: '$exists': True}}, {'keywords."{\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, '{'keywords."\xe7$\xb4e\xa2\xe5\xb0\xbcx"': {'$existsi'sts': True}: True}}}, {', k{'keywords."e\xe4y\xb8\x9c\xe8words.ne\x8ac\x9d"': {''$exists': True}: }{'$exists': , True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7{\x94\xb5\xe6\xb0\x94"': '{'$exists': Truek}e}]ywords.fuji, 'postTime': {t'$lte': su'datetime.datetime(2012, 12, 19, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 19, 0, 0): }{}'$exists'
+: True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 19, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 19, 0, 0)}}
+1933
+api_search distinct count: 1785
+api_search random sampled 500 id
+api_search fans id count: 342
+api_count generating response...
+api_trend user_data: <Storage {'begin': u'1355846400000', 'score': u'1', 'end': u'1355932799999', 'region': u'11', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba': {api_search query: {'$or': ['$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {{'keywor'ds.toshiba'$exists': : {True'$exists'}: }True, }{}'keywords.fuji, tsu'{'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, : {{'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True'}}, $exist{s'keywords.sony': {''$exists': True}}: , True{}'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}}, , {{'k'keywords.nec': {'e$ywords.fujeixtists': True}}s, {'keywuo'rds."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6: \xb0\x94"': {{'$exists': True}}]', $'postTime': {exist's': True}$lte': }datetime.datetime(2012, 12, 19, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 19, 0, 0)}, , '{r'keywords."\xe5e\xaf\x8c\xe5\xa3g\xab\xe9\x80\x9a"': ion'{: '$exists': True}}, {'keywords.sony'<_sre.SRE_Pattern object at 0x1a99458>}
+: {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {api_search userdict count: 342 '$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': 342{
+'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 19, 23, 59, 59), '$gte': datetime.datetime(2012, 12, 19, 0, 0)}, 'region': <_sre.SRE_Pattern object at 0x1a99458>}
+ api_search isolatedidset count: 324
+api_search count: 42
+api_search distinct count: 38
+api_search fans id count: 23
+api_search userdict count: 23 23
+api_search isolatedidset count: 21
+api_count user_data <Storage {'region': None, 'begin': u'1354032000000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_count begin query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 28, 0, 0)}}
+api_trend user_data: <Storage {'region': None, 'begin': u'1354032000000', 'score': u'0', 'end': u'1356710399999', 'brand': u'toshiba fujitsu sony nec'}>
+api_trend query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 28, 0, 0)}}
+api_search query: {'$or': [{'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 28, 23, 59, 59), '$gte': datetime.datetime(2012, 11, 28, 0, 0)}}
+api_search count: api_count generating response...
+52537
+api_search distinct count: 30476
+api_search random sampled 500 id
+api_search fans id count: 330
+api_search userdict count: 330 330
+api_search isolatedidset count: 312
+api_trend user_data: <Storage {'begin': u'1354147200000', 'score': u'0', 'end': u'1356787271000', 'region': None, 'brand': None}>
+api_trend query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"': {'$exists': True}}, {'keywords.toshiba': {'$exists': True}}, {'keywords."\xe4\xb8\x9c\xe8\x8a\x9d"': {'$exists': True}}], 'postTime': {'$lte': datetime.datetime(2012, 12, 29, 21, 21, 11), '$gte': datetime.datetime(2012, 11, 29, 8, 0)}}
+api_count user_data <Storage {'begin': u'1354147200000', 'score': u'0', 'end': u'1356787271000', 'region': None, 'brand': None}>
+api_count begin query: {'$or': [{'keywords.sony': {'$exists': True}}, {'keywords."\xe7\xb4\xa2\xe5\xb0\xbc"': {'$exists': True}}, {'keywords.fujitsu': {'$exists': True}}, {'keywords."\xe5\xaf\x8c\xe5\xa3\xab\xe9\x80\x9a"': {'$exists': True}}, {'keywords.nec': {'$exists': True}}, {'keywords."\xe6\x97\xa5\xe6\x9c\xac\xe7\x94\xb5\xe6\xb0\x94"

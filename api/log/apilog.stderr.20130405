@@ -1,0 +1,25 @@
+192.168.56.212:39479 - - [05/Apr/2013 08:25:22] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39480 - - [05/Apr/2013 08:25:23] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39478 - - [05/Apr/2013 08:25:33] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.34:59790 - - [05/Apr/2013 08:25:50] "HTTP/1.1 GET /" - 404 Not Found
+192.168.56.34:59791 - - [05/Apr/2013 08:25:54] "HTTP/1.1 GET /api/" - 404 Not Found
+192.168.56.34:59792 - - [05/Apr/2013 08:26:00] "HTTP/1.1 GET /brandingblog/api/v1" - 404 Not Found
+192.168.56.34:59793 - - [05/Apr/2013 08:26:02] "HTTP/1.1 GET /brandingblog/api/v1/test" - 404 Not Found
+192.168.56.212:39518 - - [05/Apr/2013 08:26:48] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39516 - - [05/Apr/2013 08:26:54] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39517 - - [05/Apr/2013 08:27:00] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:39596 - - [05/Apr/2013 08:31:19] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:39594 - - [05/Apr/2013 08:31:25] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:39595 - - [05/Apr/2013 08:31:30] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40017 - - [05/Apr/2013 08:49:39] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40018 - - [05/Apr/2013 08:49:45] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40035 - - [05/Apr/2013 08:49:49] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40016 - - [05/Apr/2013 08:49:53] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40034 - - [05/Apr/2013 08:50:05] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40033 - - [05/Apr/2013 08:50:08] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:40363 - - [05/Apr/2013 09:04:43] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:40362 - - [05/Apr/2013 09:04:54] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:40361 - - [05/Apr/2013 09:05:00] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK
+192.168.56.212:41271 - - [05/Apr/2013 09:43:48] "HTTP/1.1 GET /brandinblog/api/1/search" - 200 OK
+192.168.56.212:41270 - - [05/Apr/2013 09:44:01] "HTTP/1.1 GET /brandinblog/api/1/trend" - 200 OK
+192.168.56.212:41269 - - [05/Apr/2013 09:44:05] "HTTP/1.1 GET /brandinblog/api/1/count" - 200 OK

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    from api_count import *
+  File "/home/caq/api/api_count.py", line 4, in <module>
+    import mymongo, myutil
+  File "/home/caq/api/mymongo.py", line 45, in <module>
+    mymongoconn = MyMongoConn(ip='192.168.56.34', port=27027)
+  File "/home/caq/api/mymongo.py", line 13, in __init__
+    self.mgconn = pymongo.Connection(ip, port)
+  File "/home/caq/api/pymongo/connection.py", line 180, in __init__
+    max_pool_size, document_class, tz_aware, _connect, **kwargs)
+  File "/home/caq/api/pymongo/mongo_client.py", line 274, in __init__
+    raise ConnectionFailure(str(e))
+pymongo.errors.ConnectionFailure: could not connect to 192.168.56.34:27027: [Errno 111] Connection refused
