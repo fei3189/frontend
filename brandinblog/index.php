@@ -23,8 +23,8 @@ if (array_key_exists('network', $_REQUEST) && $_REQUEST['network'] === '1') {
 // $begin_timestamp = mktime(0, 0, 0, 1, 1, 2012);
 // $begin_timestamp = floor((time() - 86400 * 4) / 86400) * 86400;
 // $end_timestamp = time();
-$begin_timestamp = mktime(0, 0, 0, 2, 11, 2015);
-$end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
+$begin_timestamp = mktime(0, 0, 0, 3, 16, 2015);
+$end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
 
 ?>
 <!DOCTYPE html>
@@ -731,7 +731,6 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
             <ul class="dropdown-menu">
               <li><a href="?lang=en<?= $forceSVG ? "&svg=1" : "" ?><?= !$drawNetwork ? "&network=0" : "" ?>">English</a></li>
               <li><a href="?lang=zh<?= $forceSVG ? "&svg=1" : "" ?><?= !$drawNetwork ? "&network=0" : "" ?>">中文</a></li>
-              <li><a href="?lang=ja<?= $forceSVG ? "&svg=1" : "" ?><?= !$drawNetwork ? "&network=0" : "" ?>">日本語 (beta)</a></li>
             </ul>
           </div>
           <a class="btn btn-link pull-right" href="#" onclick="$D('about', true);"><?=Util::langtext("About", "关于", "このサイトについて")?></a>
@@ -788,7 +787,7 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
             <span class="pull-right">
               <select class="input-small" name="begin-year">
 <?php
-  foreach (range(2012, date('Y')) as $year) {
+  foreach (range(2014, date('Y')) as $year) {
 ?>              <option value="<?=$year?>"<?=$year == date('Y', $begin_timestamp) ? " selected" : ""?>><?=$year . Util::langtext("", "年")?></option>
 <?php
   }
@@ -880,7 +879,7 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
 
     <div class="footer">
       <p>
-        &copy; 2012 - 2013
+        &copy; 2014 - 2015
         <?=Util::langtext("Information Retrieval Group, State Key Lab of Intell. Tech. & Sys., Tsinghua University", "清华大学智能技术与系统国家重点实验室信息检索组", "清華大学インテリジェントな技術やシステムの国家重点実験室情報検索研究グループ")?> (<a href="http://www.thuir.org/" target="_blank">THUIR</a>)
       </p>
     </div>

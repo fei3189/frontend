@@ -87,7 +87,10 @@ class Util {
   );
 
   public static $PRODUCTS = array(
-    array('Samsung', '三星', 'Samsung')
+    array('Samsung', '三星', 'Samsung'),
+    array('Xiaomi', '小米', 'Xiaomi'),
+    array('Huawei', '华为', 'Huawei'),
+    array('Apple', '苹果', 'Apple')
   );
 }
 ?>
