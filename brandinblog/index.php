@@ -23,8 +23,8 @@ if (array_key_exists('network', $_REQUEST) && $_REQUEST['network'] === '1') {
 // $begin_timestamp = mktime(0, 0, 0, 1, 1, 2012);
 // $begin_timestamp = floor((time() - 86400 * 4) / 86400) * 86400;
 // $end_timestamp = time();
-$begin_timestamp = mktime(0, 0, 0, 3, 16, 2015);
-$end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
+$begin_timestamp = mktime(0, 0, 0, 2, 12, 2015);
+$end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
 
 ?>
 <!DOCTYPE html>
@@ -66,9 +66,9 @@ $end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
     <script type='text/javascript'>
       google.load('visualization', '1', {'packages': ['geochart']});
 
-      var diffwordle = new DiffWordle('cloudcontainer', 
-                     { 'width':360, 'height':200, 
-                       'type':0, 'scale':'sqrt' });
+//      var diffwordle = new DiffWordle('cloudcontainer', 
+ //                    { 'width':360, 'height':200, 
+  //                     'type':0, 'scale':'sqrt' });
 
       var tabType = 0; // 0: count, 1: sentiment, 2: emotion
 
@@ -410,6 +410,24 @@ $end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
 
             if (weiboCount > 0) showWeibo(0);
 
+            function getwcs(field) {
+                var wordcs = []; 
+                for (var i = 0; i < weiboCount; ++i) {
+                    var ws = weiboMsg[i][field].trim().split(/(\s+)/);
+                    ws.map(function(d) {
+                        if (!(d in wordcs))
+                            wordcs[d] = 0;
+                        wordcs[d] = wordcs[d] + 1;
+                    })
+                }
+                textsize = []
+                for (var key in wordcs) {
+                    textsize.push({text:key,size:5 * wordcs[key]})
+                }
+                return textsize
+            }
+            textsizen = getwcs("negative_words");
+            textsizep = getwcs("positive_words");
             // draw the wordle
             showMessage(4, "");
             var wordleList = [];
@@ -432,23 +450,24 @@ $end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
             }
             for (var i = 0; i < weiboCount; i++) {
               var w = weiboMsg[i];
+              var negwords = htmlDecode(w['negative_words']) + " ";
               if (tabType == 0) { // popularity
-                wordleList[0]['text'] += htmlDecode(w['plainContent']) + " ";
+                wordleList[0]['text'] += negwords; //htmlDecode(w['plainContent']) + " ";
                 w = w['originalMessage'];
                 if (w != null) {
-                  wordleList[0]['text'] += htmlDecode(w['plainContent']) + " ";
+                  wordleList[0]['text'] += negwords; //htmlDecode(w['plainContent']) + " ";
                 }
               } else if (tabType == 1) { // sentiment
                 var p = w['sentimentPolarity'];
                 if (p >= 0) {
                   wordleList[0]['weight'] += w['sentimentDifferenceAbs'];
                   wordleList[0]['count']++;
-                  wordleList[0]['text'] += htmlDecode(w['plainContent']) + " ";
+                  wordleList[0]['text'] += negwords; //htmlDecode(w['plainContent']) + " ";
                 }
                 if (p <= 0) {
                   wordleList[1]['weight'] += w['sentimentDifferenceAbs'];
                   wordleList[1]['count']++;
-                  wordleList[1]['text'] += htmlDecode(w['plainContent']) + " ";
+                  wordleList[1]['text'] += negwords;  //htmlDecode(w['plainContent']) + " ";
                 }
                 w = w['originalMessage'];
                 if (w != null) {
@@ -456,12 +475,12 @@ $end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
                   if (p >= 0) {
                     wordleList[0]['weight'] += w['sentimentDifferenceAbs'];
                     wordleList[0]['count']++;
-                    wordleList[0]['text'] += htmlDecode(w['plainContent']) + " ";
+                    wordleList[0]['text'] += negwords;//htmlDecode(w['plainContent']) + " ";
                   }
                   if (p <= 0) {
                     wordleList[1]['weight'] += w['sentimentDifferenceAbs'];
                     wordleList[1]['count']++;
-                    wordleList[1]['text'] += htmlDecode(w['plainContent']) + " ";
+                    wordleList[1]['text'] += negwords;//htmlDecode(w['plainContent']) + " ";
                   }
                 }
               } else if (tabType == 2) { // emotion
@@ -501,8 +520,39 @@ $end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
                 if (wordleList[j]['count'] > 0) wordleList[j]['weight'] /= wordleList[j]['count'];
               }
             }
+            function drawcloud(textsize, tagid, idx) {
+                var fill;
+               if (idx == 0) fill = d3.scale.category10();
+               else fill = d3.scale.category20();
+                d3.layout.cloud().size([300, 300])
+                .words(textsize)
+                .rotate(function() { return 0;})//~~(Math.random() * 2) * 90; })
+                .font("Impact")
+                .fontSize(function(d) { return d.size; })
+                .on("end", draw)
+                .start();
 
-            diffwordle.draw(wordleList);
+                function draw(words) {
+                    d3.select(tagid).append("svg")
+                    .attr("width", 300)
+                    .attr("height", 300)
+                    .append("g")
+                    .attr("transform", "translate(150,150)")
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .style("font-size", function(d) { return d.size + "px"; })
+                    .style("font-family", "Impact")
+                    .style("fill", function(d, i) { return fill(i); })
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function(d) {
+                        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                    })
+                    .text(function(d) { return d.text; });
+                }
+            }
+            drawcloud(textsizen, "#cloudcontainer", 1);
+            drawcloud(textsizep, "#cloudcontainerp", 0);
           }
         );
       };
@@ -772,7 +822,6 @@ $end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
           <ul class="nav nav-tabs">
             <li id="tab0" class="active"><a href="#" onclick="loadTab(0);"><?=Util::langtext("Popularity", "关注程度", "人気")?></a></li>
             <li id="tab1"><a href="#" onclick="loadTab(1);"><?=Util::langtext("Sentiment", "褒贬倾向", "センチメント")?></a></li>
-            <li id="tab2"><a href="#" onclick="loadTab(2);"><?=Util::langtext("Emotions", "公众情绪", "感情")?></a></li>
           </ul>
         </div>
       </div>
@@ -867,8 +916,9 @@ $end_timestamp = mktime(0, 0, 0, 3, 19, 2015);
         <div class="span4">
           <!--<?=Util::langtext("Trends", "趋势", "トレンド")?>:-->
           <div id="trend_div" style="width:360px; height:100px;"></div>
-          <div id="cloudcontainer" style="width:360px; height:200px;"></div>
           <div id="message_div" style="width:360px"></div>
+          <div id="cloudcontainer" style="width:300px; height:300px;"></div>
+          <div id="cloudcontainerp" style="width:300px; height:300px;"></div>
           <span id="network_canvas_span"<?=$drawNetwork ? "" : " style='display:none;'"?>><canvas id="network_canvas" width='360px' height='360px'><?=Util::langtext("Your browser does not support the HTML5 canvas tag.", "您的浏览器不支持HTML5的canvas标签。", "図形を表示するには、canvasタグをサポートしたブラウザが必要です。")?></canvas></span>
         </div> <!-- span4 -->
 
