@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # control the API python service
-BASEDIR='.'
+BASEDIR=/home/jiangfei/samsung/api
 BIND=10.0.17.154:8181
 
 if [ "$#" == "0" ]; then

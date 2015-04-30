@@ -60,7 +60,7 @@ def get_regions(s):
 # check if the brand name is valid
 # returns an array of [brand queries, brand keys]
 #BRANDS = {'toshiba':['toshiba', '"东芝"'], 'fujitsu':['fujitsu', '"富士通"'], 'sony':['sony', '"索尼"'], 'nec':['nec', '"日本电气"'], 'hitachi':['hitachi', '"日立"'], 'panasonic':['panasonic', '松下'], 'samsung':['三星', 'galaxy']}
-BRANDS = {'samsung':['三星', 'galaxy', 'samsung', 'note'], 'xiaomi':['小米4', '小米note', '红米'], 'huawei':['mate 7', '荣耀6'], 'apple':['iphone 6', '6 plus', 'apple watch']}
+BRANDS = {'samsung':['三星', 'galaxy', 'samsung', 'note']}
 def get_brands(s):
     if s is None or len(s) == 0:
         s = '+'.join(BRANDS.keys())

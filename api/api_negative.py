@@ -2,6 +2,7 @@
 import web
 import re, datetime, simplejson, time, random, pytz, calendar
 import mymongo, myutil
+import collections
 
 class api_negative:
     def GET(self):
@@ -67,7 +68,7 @@ class api_negative:
         resultobj = None
         if True:
             cursor = mymongo.mymongoconn.find('messages', query=query, limit=count, offset=skip, sortkey=sortkey)
-            resultobj = {'total': cursor.count(), 'brand': brands[1], 'count': count, 'skip': skip, 'begin': begin_time, 'end': end_time, 'messages': [], 'negative': []}
+            resultobj = {'total': cursor.count(), 'brand': brands[1], 'count': count, 'skip': skip, 'begin': begin_time, 'end': end_time, 'messages': [], 'negative': [], 'neg_words' : {}}
             for message in cursor:
                 for key in message:
                     if type(message[key]) == datetime.datetime:
@@ -140,6 +141,7 @@ class api_negative:
                 # print userdict[uid]
                 resultobj['user'].append(userdict[uid])
 
+        print resultobj
         return simplejson.dumps(resultobj)
 
     def POST(self):
