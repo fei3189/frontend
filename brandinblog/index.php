@@ -24,7 +24,7 @@ if (array_key_exists('network', $_REQUEST) && $_REQUEST['network'] === '1') {
 // $begin_timestamp = floor((time() - 86400 * 4) / 86400) * 86400;
 // $end_timestamp = time();
 $begin_timestamp = mktime(0, 0, 0, 2, 12, 2015);
-$end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
+$end_timestamp = mktime(0, 0, 0, 4, 6, 2015);
 
 ?>
 <!DOCTYPE html>
@@ -38,6 +38,7 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
     <!-- Le styles -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -53,15 +54,31 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
     <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
     -->
 
+    <style type="text/css">
+    .wordcloud {
+        float: left;
+        position: relative;
+        width: 360px;
+        height: 360px;
+    }
+    #dialog { 
+        display: none; 
+    }
+    .ui-dialog-title, .ui-dialog-content, .ui-widget-content {
+        font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+            font-size: 62.5%;
+    }
+    </style>
+
     <script type='text/javascript' src='js/util.js'></script>
 
-    <script type='text/javascript' src='js/wordle/d3.js'></script>
-    <script type='text/javascript' src='js/wordle/d3.layout.cloud.js'></script>
+    <script type='text/javascript' src='lib/d3/d3.js'></script>
+    <script type='text/javascript' src='d3.layout.cloud.js'></script>
+    <script type='text/javascript' src='wordcloud2.js'></script>
     <script type='text/javascript' src='js/wordle/diffwordle.js'></script>
     <script type='text/javascript' src='js/wordle/rgbcolor.js'></script>
     <script type='text/javascript' src='js/wordle/stopwords.js'></script>
     <script type='text/javascript' src='js/wordle/wordanalyzer.js'></script>
-
     <script type='text/javascript' src='https://www.google.com/jsapi'></script> 
     <script type='text/javascript'>
       google.load('visualization', '1', {'packages': ['geochart']});
@@ -317,6 +334,7 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
       var loadMessage = function(begin, end, region, brand, tabType, scoreType, count, skip) {
         showLoading(3);
         showLoading(4);
+        showLoading(5);
         var sortStr = "";
         switch (tabType) {
         case 0:
@@ -354,6 +372,7 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
             }
             weiboIndex = 0;
             weiboMsg = result['messages'];
+            weiboMessages = result['messages'];
             weiboCount = weiboMsg.length;
             var userDict = {}, uids = [];
             for (var i = 0; i < weiboCount; i++) {
@@ -422,12 +441,14 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
                 }
                 textsize = []
                 for (var key in wordcs) {
-                    textsize.push({text:key,size:5 * wordcs[key]})
+                    textsize.push([key, 5 * Math.sqrt(5 * wordcs[key])])
+//                    textsize.push({text:key,size:5 * wordcs[key]})
                 }
                 return textsize
             }
             textsizen = getwcs("negative_words");
             textsizep = getwcs("positive_words");
+            console.log(textsizen.length);
             // draw the wordle
             showMessage(4, "");
             var wordleList = [];
@@ -521,9 +542,7 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
               }
             }
             function drawcloud(textsize, tagid, idx) {
-                var fill;
-               if (idx == 0) fill = d3.scale.category10();
-               else fill = d3.scale.category20();
+                var fill = d3.scale.category20();
                 d3.layout.cloud().size([300, 300])
                 .words(textsize)
                 .rotate(function() { return 0;})//~~(Math.random() * 2) * 90; })
@@ -551,8 +570,11 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
                     .text(function(d) { return d.text; });
                 }
             }
-            drawcloud(textsizen, "#cloudcontainer", 1);
-            drawcloud(textsizep, "#cloudcontainerp", 0);
+//            drawcloud(textsizen, "#cloudcontainer", 1);
+            console.log(WordCloud.isSupported);
+            WordCloud(document.getElementById('cloudcontainer'), { list: textsizen, minRotation : 0, maxRotation : 0, color: '#000' } );
+            WordCloud(document.getElementById('cloudcontainerp'), { list: textsizep, minRotation : 0, maxRotation : 0, color: '#000' } );
+//            drawcloud(textsizep, "#cloudcontainerp", 0);
           }
         );
       };
@@ -917,8 +939,11 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
           <!--<?=Util::langtext("Trends", "趋势", "トレンド")?>:-->
           <div id="trend_div" style="width:360px; height:100px;"></div>
           <div id="message_div" style="width:360px"></div>
-          <div id="cloudcontainer" style="width:300px; height:300px;"></div>
-          <div id="cloudcontainerp" style="width:300px; height:300px;"></div>
+          <div id="cloudcontainer" class="wordcloud"></div>
+          <div id="cloudcontainerp" class="wordcloud"></div>
+<div id="dialog" title="微博">
+  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
           <span id="network_canvas_span"<?=$drawNetwork ? "" : " style='display:none;'"?>><canvas id="network_canvas" width='360px' height='360px'><?=Util::langtext("Your browser does not support the HTML5 canvas tag.", "您的浏览器不支持HTML5的canvas标签。", "図形を表示するには、canvasタグをサポートしたブラウザが必要です。")?></canvas></span>
         </div> <!-- span4 -->
 
@@ -957,4 +982,7 @@ $end_timestamp = mktime(0, 0, 0, 2, 13, 2015);
 
 </script>
 </body>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 </html>
