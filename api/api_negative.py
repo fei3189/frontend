@@ -14,7 +14,7 @@ class api_negative:
         end_time = myutil.get_time(user_data.end)
         regions = myutil.get_regions(user_data.region) # 11+21+32
         brands = myutil.get_brands(user_data.brand) 
-
+        print "$$$", brands
         count = user_data.count
         try:
             count = int(count)
@@ -56,8 +56,13 @@ class api_negative:
             query['$or'] = brandlist
         query['sentimentDifference'] = {'$lte' : -0.1}
 
-        sortkey = [('sentimentDifference', -1)]
-        if sortobj is not None:
+#        sentiq = {'$and' : [{'$or' : brandlist}, {'$or': [{'sentimentDifference' : {'$lte':-0.1}}, {'sentimentDifference' : {'$gte':0.1}}]}]}
+#        query['$and'] = sentiq['$and']
+#        query['sentimentDifference'] = {'$or' : [{'$lte' : -0.1}, {'$gte' : 0.1}]}
+
+        sortkey = [('sentimentDifferenceAbs', -1 )]
+        if False:
+#        if sortobj is not None:
             for key in sortobj['query']:
                 query[key] = sortobj['query'][key]
             sortkey.append((sortobj['key'][0], sortobj['key'][1]))
@@ -67,8 +72,25 @@ class api_negative:
         print 'api_search_negative query:', query, 'sortkey:', sortkey
         resultobj = None
         if True:
+            cursor = mymongo.mymongoconn.find('messages', query=query, limit=count/2, offset=skip, sortkey=sortkey)
+            resultobj = {'total': cursor.count(), 'brand': brands[1], 'count': count, 'skip': skip, 'begin': begin_time, 'end': end_time, 'messages': [], 'negative': [], 'neg_words' : {}, 'positive' : []}
+            for message in cursor:
+                for key in message:
+                    if type(message[key]) == datetime.datetime:
+                        message[key] = calendar.timegm(message[key].timetuple())
+                if 'originalMessage' in message:
+                    originalId = message['originalMessage']['_id']
+                    origMessage = mymongo.mymongoconn.find_one('messages', query=originalId)
+                    for key in origMessage:
+                        if type(origMessage[key]) == datetime.datetime:
+                            origMessage[key] = calendar.timegm(origMessage[key].timetuple())
+                    message['originalMessage'] = origMessage
+                resultobj['messages'].append(message)
+
+            query['sentimentDifference'] = {'$gte' : 0.1}
+            sortkey[0] = ('sentimentDifferenceAbs', -1 )
             cursor = mymongo.mymongoconn.find('messages', query=query, limit=count, offset=skip, sortkey=sortkey)
-            resultobj = {'total': cursor.count(), 'brand': brands[1], 'count': count, 'skip': skip, 'begin': begin_time, 'end': end_time, 'messages': [], 'negative': [], 'neg_words' : {}}
+            resultobj['total'] += cursor.count()
             for message in cursor:
                 for key in message:
                     if type(message[key]) == datetime.datetime:
@@ -141,7 +163,6 @@ class api_negative:
                 # print userdict[uid]
                 resultobj['user'].append(userdict[uid])
 
-        print resultobj
         return simplejson.dumps(resultobj)
 
     def POST(self):

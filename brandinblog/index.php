@@ -441,13 +441,18 @@ $end_timestamp = mktime(0, 0, 0, 4, 6, 2015);
                 }
                 textsize = []
                 for (var key in wordcs) {
-                    textsize.push([key, 5 * Math.sqrt(5 * wordcs[key])])
+                    var tsize = 5 * Math.sqrt(5 * wordcs[key]);
+                    if (tsize > 20) tsize = 20;
+                    textsize.push([key, tsize])
+//                    textsize.push([key, 5 * Math.sqrt(5 * wordcs[key])])
 //                    textsize.push({text:key,size:5 * wordcs[key]})
                 }
                 return textsize
             }
-            textsizen = getwcs("negative_words");
-            textsizep = getwcs("positive_words");
+//            textsizen = getwcs("negative_words");
+//            textsizep = getwcs("positive_words");
+            textsizen = getwcs("negative_terms");
+            textsizep = getwcs("positive_terms");
             console.log(textsizen.length);
             // draw the wordle
             showMessage(4, "");
@@ -572,8 +577,8 @@ $end_timestamp = mktime(0, 0, 0, 4, 6, 2015);
             }
 //            drawcloud(textsizen, "#cloudcontainer", 1);
             console.log(WordCloud.isSupported);
-            WordCloud(document.getElementById('cloudcontainer'), { list: textsizen, minRotation : 0, maxRotation : 0, color: '#000' } );
-            WordCloud(document.getElementById('cloudcontainerp'), { list: textsizep, minRotation : 0, maxRotation : 0, color: '#000' } );
+            WordCloud(document.getElementById('cloudcontainer'), { list: textsizen, minRotation : 0, maxRotation : 0, color: '#0000FF' } );
+            WordCloud(document.getElementById('cloudcontainerp'), { list: textsizep, minRotation : 0, maxRotation : 0, color: '#FF0000' } );
 //            drawcloud(textsizep, "#cloudcontainerp", 0);
           }
         );
@@ -939,6 +944,7 @@ $end_timestamp = mktime(0, 0, 0, 4, 6, 2015);
           <!--<?=Util::langtext("Trends", "趋势", "トレンド")?>:-->
           <div id="trend_div" style="width:360px; height:100px;"></div>
           <div id="message_div" style="width:360px"></div>
+          <div id="empty_div" style="height:30px"></div>
           <div id="cloudcontainer" class="wordcloud"></div>
           <div id="cloudcontainerp" class="wordcloud"></div>
 <div id="dialog" title="微博">

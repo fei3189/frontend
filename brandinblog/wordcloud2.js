@@ -212,14 +212,14 @@ if (!window.clearImmediate) {
              // alert(weiboMessages[0]['plainContent']);
              var dlg = document.getElementById("dialog");
              dlg.innerHTML = "";
-            
              for (var i = 0; i < weiboMessages.length; ++i) {
+                 var tks = weiboMessages[i]['positive_terms'] + weiboMessages[i]['negative_terms'];
+                 if (tks.toLowerCase().indexOf(a[0]) < 0)
+                     continue;
                  var msg = weiboMessages[i]['plainContent'];
                  var reg = new RegExp(a[0], 'gi');
                  var html = msg.replace(reg, function(t) { return "<span style=\"color:red\">" + t + "</span>"; })
-                 if (msg.indexOf(a[0]) >= 0) {
-                    dlg.innerHTML += "<p>- " + html + "</p>";
-                 }
+                 dlg.innerHTML += "<p>- " + html + "</p>";
              }
              $("#dialog").dialog();
           }
